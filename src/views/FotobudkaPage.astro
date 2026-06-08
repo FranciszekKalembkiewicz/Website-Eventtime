@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import StepsSection from '../components/StepsSection.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import Gallery from '../components/Gallery.astro';
+import CTASection from '../components/CTASection.astro';
+import { getTranslations } from '../i18n';
+import { filterGallery } from '../data/gallery';
+
+const tr = getTranslations(Astro.currentLocale);
+
+const steps = tr.fotobudka.steps.map((step, i) => ({
+  number: String(i + 1),
+  title: step.title,
+  description: step.description,
+}));
+---
+
+<BaseLayout title={tr.meta.fotobudka.title} description={tr.meta.fotobudka.description}>
+  <PageHero
+    title={tr.fotobudka.heroTitle}
+    subtitle={tr.fotobudka.heroSubtitle}
+    image="/images/hero-fotobudka.jpg"
+  />
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center reveal">
+      <p class="text-gray-500 text-lg leading-relaxed">{tr.fotobudka.intro}</p>
+    </div>
+  </section>
+
+  <StepsSection title={tr.fotobudka.stepsTitle} steps={steps} />
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading label={tr.common.portfolio} title={tr.fotobudka.galleryTitle} />
+      <Gallery images={filterGallery('fotobudka')} groupId="fotobudka" />
+    </div>
+  </section>
+
+  <CTASection title={tr.fotobudka.ctaTitle} subtitle={tr.fotobudka.ctaSubtitle} />
+</BaseLayout>

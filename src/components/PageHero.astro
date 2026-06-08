@@ -1,0 +1,37 @@
+---
+import FloatingBalloons from './FloatingBalloons.astro';
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  image?: string | null;
+  imagePosition?: string;
+}
+
+const { title, subtitle, image = null, imagePosition = 'center' } = Astro.props;
+---
+
+<section class="relative min-h-[50vh] md:min-h-[55vh] flex items-center overflow-hidden hero-mesh">
+  <FloatingBalloons />
+
+  {image && (
+    <img
+      src={image}
+      alt=""
+      class="absolute inset-0 w-full h-full object-cover opacity-10"
+      style={`object-position: ${imagePosition}`}
+      aria-hidden="true"
+    />
+  )}
+
+  <div class="relative z-10 w-full max-w-7xl mx-auto px-4 py-20 text-center">
+    <h1 class="fade-up text-4xl md:text-6xl font-bold text-white tracking-tight mb-4">
+      {title}
+    </h1>
+    {subtitle && (
+      <p class="fade-up fade-up-delay-1 text-lg md:text-xl text-white/70 max-w-2xl mx-auto leading-relaxed">
+        {subtitle}
+      </p>
+    )}
+  </div>
+</section>

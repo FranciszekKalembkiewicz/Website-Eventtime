@@ -1,0 +1,41 @@
+---
+import { site } from '../config/site';
+import { getTranslations } from '../i18n';
+import { fmt, localizedUrl } from '../i18n/utils';
+import type { Locale } from '../i18n/locales';
+import FloatingBalloons from './FloatingBalloons.astro';
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+}
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+
+const {
+  title = tr.cta.title,
+  subtitle = tr.cta.subtitle,
+} = Astro.props;
+---
+
+<section class="relative py-20 md:py-28 hero-mesh overflow-hidden">
+  <FloatingBalloons />
+  <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+    <h2 class="reveal text-3xl md:text-5xl font-bold text-white tracking-tight mb-4">
+      {title}
+    </h2>
+    <p class="reveal text-white/70 text-lg mb-10 max-w-xl mx-auto">{subtitle}</p>
+    <div class="reveal flex flex-wrap gap-4 justify-center">
+      <a href={`${localizedUrl(locale, '/o-nas')}#kontakt`} class="btn-primary px-8 py-4 text-white font-semibold rounded-full">
+        {tr.cta.quote}
+      </a>
+      <a
+        href={`tel:${site.phone.replace(/\s/g, '')}`}
+        class="btn-ghost px-8 py-4 text-white font-semibold rounded-full"
+      >
+        {fmt(tr.cta.call, { phone: site.phone })}
+      </a>
+    </div>
+  </div>
+</section>

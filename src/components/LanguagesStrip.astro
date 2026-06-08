@@ -1,0 +1,22 @@
+---
+import { getTranslations } from '../i18n';
+
+const tr = getTranslations(Astro.currentLocale);
+---
+
+<section class="py-12 md:py-16 bg-gradient-to-r from-accent/5 via-violet/5 to-sky/5 border-y border-accent/10">
+  <div class="max-w-4xl mx-auto px-4 text-center reveal">
+    <span class="inline-block text-xs font-bold uppercase tracking-[0.2em] text-accent mb-3">
+      {tr.languages.badge}
+    </span>
+    <h2 class="text-2xl md:text-3xl font-bold text-ink tracking-tight mb-4">
+      {tr.languages.title}
+    </h2>
+    <p class="text-gray-500 leading-relaxed mb-6 max-w-2xl mx-auto">
+      {tr.languages.description}
+    </p>
+    <p class="text-sm font-semibold text-accent tracking-wide">
+      {tr.languages.list}
+    </p>
+  </div>
+</section>

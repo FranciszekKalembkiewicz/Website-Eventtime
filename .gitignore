@@ -1,0 +1,57 @@
+# ── Build i zależności ──────────────────────────────────────────────
+dist/
+.astro/
+node_modules/
+*.tsbuildinfo
+.cache/
+.turbo/
+.vite/
+
+# ── Zmienne środowiskowe i sekrety (NIGDY nie commitować) ───────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials*.json
+.secrets
+.netrc
+
+# ── Konfiguracja lokalna z danymi firmy ────────────────────────────
+# W repozytorium jest tylko site.example.ts — skopiuj do site.ts lokalnie.
+src/config/site.ts
+
+# ── Dokumentacja wewnętrzna (checklisty, kontakty, deploy) ─────────
+HANDOFF.md
+
+# ── Materiały źródłowe klienta (surowe zdjęcia) ────────────────────
+EventTime/
+
+# ── Paczki wdrożeniowe ─────────────────────────────────────────────
+*.zip
+*.tar.gz
+eventtime-strona.zip
+
+# ── Logi ───────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ── System i IDE ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Cursor / lokalne notatki agenta ────────────────────────────────
+.cursor/
+agent-transcripts/

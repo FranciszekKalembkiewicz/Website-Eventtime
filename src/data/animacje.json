@@ -1,0 +1,91 @@
+{
+  "intro": "Event Time to ponad 20 lat doświadczenia w animacjach i zespół, który zna się na prowadzeniu imprez. Od kolorowego klauna, przez bańki mydlane, po pełne energii konkursy — dopasujemy program do wieku gości i charakteru uroczystości.",
+  "partyTypes": [
+    {
+      "id": "urodziny",
+      "title": "Urodziny",
+      "description": "Program dopasowany do wieku solenizanta — od maluchów po nastolatków.",
+      "image": "/images/placeholders/party-urodziny.svg"
+    },
+    {
+      "id": "komunie",
+      "title": "Komunie",
+      "description": "Lekkie, rodzinne animacje, które angażują dzieci i dorosłych.",
+      "image": "/images/placeholders/party-komunie.svg"
+    },
+    {
+      "id": "wesela",
+      "title": "Wesela",
+      "description": "Zabawy i atrakcje dla najmłodszych gości weselnych.",
+      "image": "/images/placeholders/party-wesela.svg"
+    },
+    {
+      "id": "firmowe",
+      "title": "Eventy firmowe",
+      "description": "Integracja, konkursy i animacje na pikniki i eventy B2B.",
+      "image": "/images/placeholders/party-firmowe.svg"
+    },
+    {
+      "id": "pikniki",
+      "title": "Pikniki i festyny",
+      "description": "Duże imprezy plenerowe z atrakcjami dla całych rodzin.",
+      "image": "/images/placeholders/party-pikniki.svg"
+    },
+    {
+      "id": "inne",
+      "title": "Inne okazje",
+      "description": "Chrzciny, baby shower, jubileusze — każda okazja jest dobra.",
+      "image": "/images/placeholders/party-inne.svg"
+    }
+  ],
+  "attractions": [
+    {
+      "id": "klaun",
+      "title": "Klaun",
+      "description": "Kolorowy klaun z zabawami, konkursami i mnóstwem śmiechu.",
+      "image": "/images/placeholders/attr-klaun.svg"
+    },
+    {
+      "id": "banki",
+      "title": "Bańki mydlane",
+      "description": "Olbrzymie bańki, które zachwycają dzieci i dorosłych.",
+      "image": "/images/placeholders/attr-banki.svg"
+    },
+    {
+      "id": "malowanie",
+      "title": "Malowanie twarzy",
+      "description": "Kolorowe wzory i postacie dopasowane do motywu imprezy.",
+      "image": "/images/placeholders/attr-malowanie.svg"
+    },
+    {
+      "id": "konkursy",
+      "title": "Konkursy i zabawy",
+      "description": "Gry integracyjne, konkursy z nagrodami i animacje prowadzone.",
+      "image": "/images/placeholders/attr-konkursy.svg"
+    },
+    {
+      "id": "dmuchance",
+      "title": "Dmuchańce",
+      "description": "Bezpieczna atrakcja, która dostarcza energii na całe popołudnie.",
+      "image": "/images/placeholders/attr-dmuchance.svg"
+    },
+    {
+      "id": "inne",
+      "title": "Inne atrakcje",
+      "description": "Dodatkowe atrakcje — opisz nam swoją wizję, a my ją zrealizujemy.",
+      "image": "/images/placeholders/attr-inne.svg"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "text": "Świetna organizacja i kontakt z dziećmi. Polecamy!",
+      "author": "Opinia klienta — wkrótce więcej"
+    },
+    {
+      "id": "2",
+      "text": "Profesjonalne podejście i mnóstwo uśmiechu na imprezie.",
+      "author": "Opinia klienta — wkrótce więcej"
+    }
+  ]
+}

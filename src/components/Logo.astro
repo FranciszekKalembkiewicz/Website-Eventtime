@@ -1,0 +1,25 @@
+---
+import { site } from '../config/site';
+
+interface Props {
+  variant?: 'header' | 'footer' | 'hero';
+}
+
+const { variant = 'header' } = Astro.props;
+
+const sizes = {
+  header: 'h-14 w-14 md:h-16 md:w-16',
+  footer: 'h-14 w-14',
+  hero: 'w-56 md:w-72 lg:w-80 h-auto',
+};
+
+const invertOnDark = variant === 'footer' || variant === 'hero';
+---
+
+<img
+  src={site.logo}
+  alt={site.name}
+  class={`${sizes[variant]} object-contain ${invertOnDark ? 'invert drop-shadow-[0_4px_24px_rgba(255,255,255,0.15)]' : ''}`}
+  width={variant === 'hero' ? 320 : 64}
+  height={variant === 'hero' ? 320 : 64}
+/>

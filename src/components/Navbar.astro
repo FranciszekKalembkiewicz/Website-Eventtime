@@ -1,0 +1,133 @@
+---
+import { site } from '../config/site';
+import { getTranslations } from '../i18n';
+import { isNavActive, localizedUrl } from '../i18n/utils';
+import type { Locale } from '../i18n/locales';
+import Logo from './Logo.astro';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+const pathname = Astro.url.pathname;
+
+const navItems = [
+  { label: tr.nav.home, pathKey: '/', external: false },
+  { label: tr.nav.animacje, pathKey: '/animacje', external: false },
+  { label: tr.nav.dekoracje, pathKey: '/dekoracje', external: false },
+  { label: tr.nav.fotobudka, pathKey: '/fotobudka', external: false },
+  { label: tr.nav.sklep, href: site.allegroUrl, external: true },
+  { label: tr.nav.oNas, pathKey: '/o-nas', external: false },
+];
+
+const homeUrl = localizedUrl(locale, '/');
+const contactUrl = `${localizedUrl(locale, '/o-nas')}#kontakt`;
+---
+
+<header class="glass-nav sticky top-0 z-50 border-b border-black/5">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+    <a href={homeUrl} class="flex items-center shrink-0 hover:opacity-90 transition-opacity">
+      <Logo variant="header" />
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-1">
+      {navItems.map((item) => {
+        if (item.external) {
+          return (
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="px-4 py-2 text-sm font-medium text-gray-600 hover:text-accent rounded-full hover:bg-accent-light/50 transition-all"
+            >
+              {item.label}
+            </a>
+          );
+        }
+        const href = localizedUrl(locale, item.pathKey!);
+        const isActive = isNavActive(pathname, item.pathKey!, locale);
+        return (
+          <a
+            href={href}
+            class={`px-4 py-2 text-sm font-medium rounded-full transition-all ${
+              isActive
+                ? 'text-white bg-accent shadow-md shadow-accent/30'
+                : 'text-gray-600 hover:text-accent hover:bg-accent-light/50'
+            }`}
+          >
+            {item.label}
+          </a>
+        );
+      })}
+    </nav>
+
+    <div class="flex items-center gap-3 shrink-0">
+      <div class="hidden sm:block">
+        <LanguageSwitcher />
+      </div>
+      <a
+        href={contactUrl}
+        class="hidden md:inline-flex btn-primary items-center px-5 py-2.5 text-white text-sm font-semibold rounded-full"
+      >
+        {tr.nav.cta}
+      </a>
+      <button
+        id="menu-toggle"
+        type="button"
+        class="lg:hidden p-2 text-ink hover:text-accent rounded-lg"
+        aria-label={tr.nav.openMenu}
+        aria-expanded="false"
+      >
+        <svg id="menu-icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="menu-icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-menu" class="lg:hidden hidden border-t border-black/5 bg-white/95 backdrop-blur-lg">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
+      <div class="sm:hidden mb-3 flex justify-center">
+        <LanguageSwitcher />
+      </div>
+      {navItems.map((item) =>
+        item.external ? (
+          <a href={item.href} target="_blank" rel="noopener noreferrer" class="px-4 py-3 text-sm font-medium text-gray-700 hover:text-accent rounded-xl hover:bg-accent-light/30">
+            {item.label}
+          </a>
+        ) : (
+          <a
+            href={localizedUrl(locale, item.pathKey!)}
+            class={`px-4 py-3 text-sm font-medium rounded-xl ${
+              isNavActive(pathname, item.pathKey!, locale)
+                ? 'text-accent bg-accent-light/40 font-semibold'
+                : 'text-gray-700 hover:text-accent hover:bg-accent-light/30'
+            }`}
+          >
+            {item.label}
+          </a>
+        )
+      )}
+      <a href={contactUrl} class="mt-2 btn-primary px-4 py-3 text-white text-sm font-semibold rounded-full text-center">
+        {tr.nav.cta}
+      </a>
+    </div>
+  </nav>
+</header>
+
+<script>
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('menu-icon-open');
+  const iconClose = document.getElementById('menu-icon-close');
+
+  toggle?.addEventListener('click', () => {
+    const isOpen = !menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden', isOpen);
+    iconOpen?.classList.toggle('hidden', !isOpen);
+    iconClose?.classList.toggle('hidden', isOpen);
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+  });
+</script>

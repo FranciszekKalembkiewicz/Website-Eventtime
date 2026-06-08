@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "home": { "title": "Startseite", "description": "Event Time — erprobtes Event-Unternehmen aus Zielona Góra. Über 20 Jahre Animationen, Ballondekorationen und 360°-Fotoboxen. Events auf Polnisch, Deutsch, Englisch und Ukrainisch." },
+    "animacje": { "title": "Animationen", "description": "Animationen für Events in Zielona Góra, Deutschland und Umgebung — Clown, Seifenblasen, Wettbewerbe. Event Time." },
+    "dekoracje": { "title": "Dekorationen", "description": "Ballondekorationen für Events — Geburtstage, Hochzeiten, Firmenevents. Event Time." },
+    "fotobudka": { "title": "Fotobox", "description": "360°-Fotobox für Events. Moderne Attraktion von Event Time." },
+    "oNas": { "title": "Über uns", "description": "Event Time — über 20 Jahre auf dem Event-Markt. Animationen, Dekorationen und 360°-Fotoboxen." }
+  },
+  "nav": {
+    "home": "Startseite",
+    "animacje": "Animationen",
+    "dekoracje": "Dekorationen",
+    "fotobudka": "Fotobox",
+    "sklep": "Online-Shop",
+    "oNas": "Über uns",
+    "cta": "Angebot anfragen",
+    "openMenu": "Menü öffnen"
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "allegro": "Zu Allegro",
+    "scroll": "Scrollen",
+    "yearsOnMarket": "Jahre am Markt",
+    "events": "Events",
+    "eventsDone": "durchgeführte Events",
+    "readMore": "Mehr über uns",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "companyData": "Firmendaten",
+    "contactForm": "Kontaktformular",
+    "sendMessage": "Nachricht senden",
+    "name": "Vor- und Nachname",
+    "namePlaceholder": "Max Mustermann",
+    "emailPlaceholder": "max@beispiel.de",
+    "phoneOptional": "Telefon (optional)",
+    "phonePlaceholder": "+49 000 0000000",
+    "message": "Nachricht",
+    "messagePlaceholder": "Beschreiben Sie Ihr Event — Datum, Ort, Anzahl der Gäste...",
+    "formSuccess": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+    "formError": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder rufen Sie uns an.",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "contactFormLink": "Kontaktformular",
+    "rights": "Alle Rechte vorbehalten.",
+    "portfolio": "Portfolio",
+    "inShort": "Kurz zusammengefasst",
+    "onMarketSince": "Am Markt seit",
+    "overYears": "über {years} Jahren",
+    "eventsCount": "Durchgeführte Events",
+    "serviceArea": "Einsatzgebiet",
+    "services": "Leistungen",
+    "servicesList": "Animationen · Dekorationen · 360°-Fotobox",
+    "writeToUs": "Schreiben Sie uns",
+    "contactIntro": "Fragen? Angebot gewünscht? Wir antworten schnell — rufen Sie an oder schreiben Sie uns.",
+    "close": "Schließen",
+    "viewExamples": "Beispiele ansehen",
+    "clickToEnlarge": "Klicken Sie auf ein Foto, um es zu vergrößern",
+    "galleryMoreSoon": "Weitere Fotos aus dieser Kategorie folgen bald.",
+    "lightboxLabel": "Vergrößertes Foto",
+    "lightboxPrev": "Vorheriges Foto",
+    "lightboxNext": "Nächstes Foto"
+  },
+  "languages": {
+    "badge": "Events in 4 Sprachen",
+    "title": "Wir sprechen Polnisch, Deutsch, Englisch und Ukrainisch",
+    "description": "Wir organisieren Events in ganz Polen — am häufigsten im Westen des Landes und in Ostdeutschland. Unser Team kommuniziert fließend in vier Sprachen — Gäste fühlen sich gut betreut, unabhängig von ihrer Herkunft.",
+    "list": "Polnisch · Deutsch · Englisch · Ukrainisch"
+  },
+  "hero": {
+    "badgeYears": "Über {years} Jahre am Markt",
+    "tagline": "Zeit für Ihre Feier!",
+    "titleLine1": "Wir schaffen Events,",
+    "titleLine2": "die in Erinnerung bleiben",
+    "subtitle": "Erprobtes Event-Unternehmen aus Zielona Góra. Animationen, Ballondekorationen und 360°-Fotoboxen — wir realisieren Events in ganz Polen, von kleinen Geburtstagen bis zu großen Firmenevents.",
+    "ctaQuote": "Angebot anfragen",
+    "ctaAnimacje": "Animationen ansehen"
+  },
+  "experience": {
+    "stat3Value": "Jeder Anlass",
+    "stat3Label": "thematische Vielfalt und unvergessliche Erlebnisse"
+  },
+  "quickLinks": {
+    "animacje": "Animationen",
+    "dekoracje": "Dekorationen",
+    "fotobudka": "Fotobox",
+    "kontakt": "Kontakt"
+  },
+  "home": {
+    "servicesLabel": "Leistungen",
+    "servicesTitle": "Was können wir für Sie vorbereiten?",
+    "servicesSubtitle": "Animationen, Dekorationen und Fotoboxen — alles mit über zwanzig Jahren Erfahrung auf dem Event-Markt.",
+    "aboutLabel": "Über uns",
+    "aboutTitle": "Verlässlicher Partner bei der Event-Organisation",
+    "aboutP1": "Event Time ist ein Unternehmen aus Zielona Góra mit über {years} Jahren Geschichte auf dem Event-Markt. Unser Team aus Animatoren und Dekorateuren liefert seit Jahren Unterhaltung und Dekoration für private und Firmenevents — mit gleichem Engagement, unabhängig vom Umfang.",
+    "aboutP2": "Wir kennen den Markt in- und auswendig — wir wissen, was bei Kindergeburtstagen, Kommunionen, Hochzeiten oder Integrations-Events funktioniert. Jedes Projekt nehmen wir ernst, denn unser Ruf wird seit Jahren Event für Event aufgebaut.",
+    "aboutP3": "Wir nehmen Aufträge aus ganz Polen an — unser Standort ist Zielona Góra, am häufigsten arbeiten wir im Westen des Landes und in Ostdeutschland. Weitere Anfahrten kalkulieren wir individuell. Kontaktieren Sie uns — wir erstellen ein Angebot passend zu Ihrem Event.",
+    "galleryTitle": "Unsere Realisierungen",
+    "gallerySubtitle": "Fotos unserer Realisierungen — das Portfolio wächst mit weiteren Materialien.",
+    "aboutImageAlt": "Event Time — Event-Realisierungen"
+  },
+  "services": {
+    "animacje": { "title": "Animationen", "description": "Professionelle Animationen für jeden Anlass — Clown, Seifenblasen, Wettbewerbe und Attraktionen für Kinder und Erwachsene." },
+    "dekoracje": { "title": "Dekorationen", "description": "Ballondekorationen für Geburtstage, Hochzeiten, Kommunionen und Firmenevents — vor Ort geplant und umgesetzt." },
+    "fotobudka": { "title": "Fotobox", "description": "360°-Fotobox — moderne Attraktion, die Gäste begeistert und bleibende Erinnerungen schafft." },
+    "sklep": { "title": "Online-Shop", "description": "Dekorationen und Partyartikel — bequem über unser Allegro-Profil bestellen." }
+  },
+  "whyUs": {
+    "label": "Warum Event Time",
+    "title": "Erfahrung, auf die Sie zählen können",
+    "subtitle": "Wir sind kein neues Unternehmen — seit Jahren bauen wir den Ruf eines soliden Partners bei der Event-Organisation auf.",
+    "items": [
+      { "title": "Über 20 Jahre Erfahrung", "description": "Seit zwei Jahrzehnten organisieren wir Events in ganz Polen — mit Basis in Zielona Góra. Hinter uns steht ein Team erfahrener Animatoren und Dekorateure." },
+      { "title": "Erprobtes Unternehmen", "description": "Hunderte Familien und Firmen vertrauen uns. Wir wissen, was auf einer Feier funktioniert — und kümmern uns um jedes Detail, bevor die Gäste kommen." },
+      { "title": "Rundum-Service", "description": "Animationen, Ballondekorationen und 360°-Fotobox aus einer Hand. Ohne Subunternehmer und ohne Überraschungen." },
+      { "title": "Individuelle Betreuung", "description": "Jedes Event ist anders. Wir hören zu, beraten und passen das Programm an Alter der Gäste, Budget und Charakter der Feier an." }
+    ]
+  },
+  "cta": {
+    "title": "Haben Sie eine Idee für ein Event?",
+    "subtitle": "Schreiben Sie uns — wir erstellen ein Angebot passend zu Ihrer Feier.",
+    "quote": "Angebot anfragen",
+    "call": "Anrufen: {phone}"
+  },
+  "animacje": {
+    "heroTitle": "Animationen für jeden Anlass",
+    "heroSubtitle": "Professionelle Animationen für Kinder und Erwachsene — von Geburtstagen bis Firmenevents, in ganz Polen.",
+    "intro": "Event Time bedeutet über 20 Jahre Erfahrung in Animationen und ein Team, das Events professionell leitet. Wir führen Animationen auf Polnisch, Deutsch, Englisch und Ukrainisch durch. Vom bunten Clown über Seifenblasen bis zu energiegeladenen Wettbewerben — wir passen das Programm an Alter und Charakter der Feier an.",
+    "partyLabel": "Events",
+    "partyTitle": "Arten von Veranstaltungen",
+    "partySubtitle": "Wir leiten Animationen für verschiedene Anlässe — wir passen das Programm dem Charakter des Events an.",
+    "attractionsLabel": "Attraktionen",
+    "attractionsTitle": "Was können wir anbieten?",
+    "attractionsSubtitle": "Wählen Sie Attraktionen oder sagen Sie uns, was Sie suchen — wir stellen das ideale Programm zusammen.",
+    "galleryTitle": "Galerie und Referenzen",
+    "ctaTitle": "Planen Sie Animationen für Ihr Event",
+    "ctaSubtitle": "Erzählen Sie uns von Ihrer Feier — wir erstellen Programm und Angebot.",
+    "partyTypes": {
+      "urodziny": { "title": "Geburtstage", "description": "Programm passend zum Alter des Geburtstagskindes — von Kleinkindern bis Teenagern." },
+      "komunie": { "title": "Kommunionen", "description": "Leichte, familiäre Animationen, die Kinder und Erwachsene einbeziehen." },
+      "wesela": { "title": "Hochzeiten", "description": "Spiele und Attraktionen für die jüngsten Hochzeitsgäste." },
+      "firmowe": { "title": "Firmenevents", "description": "Teambuilding, Wettbewerbe und Animationen für Picknicks und B2B-Events." },
+      "pikniki": { "title": "Picknicks und Feste", "description": "Große Outdoor-Events mit Attraktionen für die ganze Familie." },
+      "inne": { "title": "Andere Anlässe", "description": "Taufen, Baby Shower, Jubiläen — jeder Anlass ist willkommen." }
+    },
+    "attractions": {
+      "klaun": { "title": "Clown", "description": "Bunter Clown mit Spielen, Wettbewerben und viel Lachen." },
+      "banki": { "title": "Seifenblasen", "description": "Riesige Blasen, die Kinder und Erwachsene begeistern." },
+      "malowanie": { "title": "Gesichtsbemalung", "description": "Bunte Muster und Figuren passend zum Motto der Feier." },
+      "konkursy": { "title": "Wettbewerbe und Spiele", "description": "Integrationsspiele, Wettbewerbe mit Preisen und moderierte Animationen." },
+      "warkoczyki": { "title": "Flechtfrisuren", "description": "Bunte Zöpfe und Frisuren für Kinder — schnell und beliebt." },
+      "tatuaze": { "title": "Glitzer-Tattoos", "description": "Sichere pudrige und temporäre Tattoos für Kinder — Glitzer, Muster, Farben." },
+      "modelinowe": { "title": "Modellierballons", "description": "Tiere, Schwerter und Figuren aus Modellierballons — jedes Kind bekommt ein Andenken." },
+      "wataPopcorn": { "title": "Zuckerwatt- und Popcornmaschinen", "description": "Frische Zuckerwatte und duftendes Popcorn direkt aus der Maschine — süße Attraktion für Feste und Outdoor-Events." },
+      "dmuchance": { "title": "Hüpfburgen", "description": "Sichere Attraktion, die den ganzen Nachmittag Energie liefert." }
+    },
+    "testimonials": [
+      { "text": "Tolle Organisation und guter Kontakt mit Kindern. Empfehlenswert!", "author": "Kundenmeinung — bald mehr" },
+      { "text": "Professioneller Ansatz und viel Lächeln auf der Feier.", "author": "Kundenmeinung — bald mehr" }
+    ]
+  },
+  "dekoracje": {
+    "heroTitle": "Ballondekorationen",
+    "heroSubtitle": "Von Geburtstagsbögen bis zu eleganten Hochzeitsarrangements — wir setzen Ihre Vision um.",
+    "intro": "Wir gestalten Ballondekorationen für jeden Anlass — von Geburtstagsbögen bis zu eleganten Hochzeitskompositionen. Wir bieten auch Paillettenwände, Blumen- und Pflanzenwände, LED-Zahlen und -Schriften sowie Komplettdekorationen für Firmenevents.",
+    "categoriesLabel": "Kategorien",
+    "categoriesTitle": "Was wir für Sie vorbereiten können",
+    "categoriesSubtitle": "Ballonbögen, Dekowände, LED-Inschriften und Arrangements passend zu Ihrem Event.",
+    "galleryTitle": "Unsere Realisierungen",
+    "ctaTitle": "Brauchen Sie Dekoration für Ihr Event?",
+    "ctaSubtitle": "Beschreiben Sie uns Ihre Vision — wir erstellen Projekt und Angebot.",
+    "categories": {
+      "luki": { "title": "Ballonbögen und Girlanden", "description": "Organische Bögen, Eingangstore und Girlanden — von klassisch bis modern.", "detail": "Wir planen und montieren organische Bögen, Eingangstore und Ballongirlanden — passend zu Saal, Garten oder Restauranteingang." },
+      "urodziny": { "title": "Geburtstage und Kinderfeiern", "description": "Themenwände, Ballonzahlen und Dekorationen in Lieblingsfarben.", "detail": "Dekorationen für Kinder- und Erwachsenengeburtstage — Themenwände, Ballonzahlen und Arrangements am Eingang und am Tisch." },
+      "sluby": { "title": "Hochzeiten", "description": "Elegante Dekorationen für Saal, Eingänge und Tische — Ballons mit Blumen und Details.", "detail": "Elegante Hochzeitsdekorationen — Bögen am Eingang, Arrangements hinter dem Brautpaar, Tische und Details aus Ballons mit Blumen." },
+      "cekinowe": { "title": "Paillettenwände", "description": "Glänzende Fotowände in verschiedenen Farben — ideal für Partys und Events.", "detail": "Glänzende Paillettenwände in Gold, Silber, Schwarz und mehr — ideal als Fotohintergrund, kombinierbar mit LED-Schrift und Branding." },
+      "liczbyLed": { "title": "LED-Zahlen und -Schriften", "description": "Beleuchtete Zahlen, Schriftzüge und Neon-Elemente — zur Miete oder als Teil der Dekoration.", "detail": "Beleuchtete Zahlen und LED-Schriftzüge — zur Miete oder als Teil einer größeren Dekoration. Beliebt bei Geburtstagen, Jubiläen und Firmenevents." },
+      "kwiatowe": { "title": "Blumen- und Pflanzenwände", "description": "Arrangements aus Blumen und Grün — natürliche Kulisse für Fotos und Raumgestaltung.", "detail": "Blumen- und Pflanzenwände als natürliche Fotokulisse — oft kombiniert mit Ballons für eine stimmige Gesamtdekoration." },
+      "firmowe": { "title": "Firmenevents", "description": "Branding, Ballons mit Logo, Wände und Dekorationen für Galas, Konferenzen und Teambuilding.", "detail": "Dekorationen für Galas, Konferenzen und Teambuilding — Logo-Wände, Firmenfarben, LED-Inschriften und komplette Event-Bereiche." },
+      "inne": { "title": "Kommunionen und andere Anlässe", "description": "Kommunionen, Baby Shower, Jubiläen — wir passen den Stil an Ihr Event an.", "detail": "Kommunionen, Baby Shower, Jubiläen und weitere Anlässe — wir passen Stil und Umfang der Dekoration an Ort und Charakter der Feier an." }
+    }
+  },
+  "fotobudka": {
+    "heroTitle": "360°-Fotobox",
+    "heroSubtitle": "Moderne Attraktion, die Begeisterung weckt und unvergessliche Erinnerungen schafft.",
+    "intro": "Die 360°-Fotobox ist eine eigenständige, moderne Leistung von Event Time — neben Animationen und Dekorationen, mit derselben Erfahrung und Professionalität, die Sie von uns kennen. Gäste betreten die Drehplattform, die Kamera filmt eindrucksvolle Aufnahmen aus jeder Richtung. Eine Attraktion, die Gäste anzieht und großartigen Social-Media-Content liefert.",
+    "stepsTitle": "Wie funktioniert es?",
+    "steps": [
+      { "title": "Wir richten ein", "description": "Wir bringen die 360°-Fotobox mit und bereiten den Standort auf Ihrem Event vor." },
+      { "title": "Wir filmen", "description": "Gäste betreten die Plattform — die Kamera nimmt dynamische Aufnahmen aus jeder Richtung auf." },
+      { "title": "Wir teilen", "description": "Fertige Videos gehen an die Teilnehmer — ein ideales Andenken an das Event." }
+    ],
+    "galleryTitle": "Galerie",
+    "ctaTitle": "Möchten Sie eine Fotobox auf Ihrem Event?",
+    "ctaSubtitle": "Schreiben Sie uns — wir nennen Verfügbarkeit und Preis."
+  },
+  "oNas": {
+    "heroTitle": "Über uns",
+    "heroSubtitle": "Über 20 Jahre Erfahrung, vertrauenswürdiges Team und tausende durchgeführte Events.",
+    "historyLabel": "Unsere Geschichte",
+    "historyTitle": "Event Time",
+    "historyP1": "Event Time ist ein erprobtes Event-Unternehmen aus Zielona Góra, seit über 20 Jahren am Markt. In dieser Zeit haben wir ein Team aufgebaut, das Leidenschaft für Animationen mit professionellem Ansatz bei jedem Auftrag verbindet.",
+    "historyP2": "Wir arbeiten mit erfahrenen Animatoren und Dekorateuren — Menschen, die mit Kindern umgehen können, wissen, wie man eine Feier in Schwung bringt, und um jedes Detail kümmern, vom ersten Anruf bis zum letzten Ballon im Saal.",
+    "historyP3": "Wir sind spezialisiert auf Animationen, Ballondekorationen und 360°-Fotoboxen. Wir betreuen Geburtstage, Kommunionen, Hochzeiten, Firmenevents und Outdoor-Feste in ganz Polen — am häufigsten im Westen des Landes und in Ostdeutschland.",
+    "historyP4": "Wir führen Events auf Polnisch, Deutsch, Englisch und Ukrainisch durch. Kontaktieren Sie uns — wir erzählen gerne mehr und erstellen ein Angebot.",
+    "teamImageAlt": "Event Time Team"
+  },
+  "location": "Polen und Deutschland · Basis: Zielona Góra",
+  "serviceArea": {
+    "badge": "Wo wir tätig sind",
+    "title": "Polen und Deutschland — Basis in Zielona Góra",
+    "description": "Unser Standort ist Zielona Góra, aber wir nehmen Aufträge aus ganz Polen und Deutschland an. Am häufigsten realisieren wir Events im Westen Polens und in Ostdeutschland — dort haben wir die meiste Erfahrung und die kürzesten Anfahrtswege.",
+    "travelNote": "Events in weiter entfernten Regionen übernehmen wir gerne. Die Anfahrtskosten legen wir bei der Angebotserstellung transparent fest — ohne versteckte Gebühren.",
+    "base": "Unsere Basis",
+    "baseDesc": "Zielona Góra",
+    "primaryZone": "Häufigster Einsatzgebiet",
+    "primaryZoneDesc": "Westpolen und Ostdeutschland",
+    "nationwide": "Aufträge aus ganz Polen und Deutschland",
+    "nationwideDesc": "nehmen wir an — weitere Anfahrten kalkulieren wir individuell",
+    "mapLabel": "Event Time Einsatzgebiet: Basis in Zielona Góra, häufigster Bereich in Westpolen und Ostdeutschland, Aufträge aus ganz Polen und Deutschland"
+  }
+}

@@ -1,0 +1,67 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import CardGrid from '../components/CardGrid.astro';
+import Gallery from '../components/Gallery.astro';
+import CTASection from '../components/CTASection.astro';
+import { getTranslations } from '../i18n';
+import { getAnimacjeData } from '../i18n/data';
+import { filterGallery } from '../data/gallery';
+
+const tr = getTranslations(Astro.currentLocale);
+const animacjeData = getAnimacjeData(tr);
+---
+
+<BaseLayout title={tr.meta.animacje.title} description={tr.meta.animacje.description}>
+  <PageHero
+    title={tr.animacje.heroTitle}
+    subtitle={tr.animacje.heroSubtitle}
+    image="/images/hero-animacje.jpg"
+  />
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center reveal">
+      <p class="text-gray-500 text-lg leading-relaxed">{animacjeData.intro}</p>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label={tr.animacje.partyLabel}
+        title={tr.animacje.partyTitle}
+        subtitle={tr.animacje.partySubtitle}
+      />
+      <CardGrid items={animacjeData.partyTypes} columns={3} />
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label={tr.animacje.attractionsLabel}
+        title={tr.animacje.attractionsTitle}
+        subtitle={tr.animacje.attractionsSubtitle}
+      />
+      <CardGrid items={animacjeData.attractions} columns={3} />
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading label={tr.common.portfolio} title={tr.animacje.galleryTitle} />
+      <Gallery images={filterGallery('animacje')} groupId="animacje" />
+      <div class="mt-12 grid md:grid-cols-2 gap-5 max-w-4xl mx-auto">
+        {animacjeData.testimonials.map((t, i) => (
+          <blockquote class="reveal bento-card rounded-2xl p-6" style={`transition-delay: ${i * 100}ms`}>
+            <p class="text-gray-500 leading-relaxed mb-3">„{t.text}"</p>
+            <cite class="text-sm text-accent font-semibold not-italic">— {t.author}</cite>
+          </blockquote>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <CTASection title={tr.animacje.ctaTitle} subtitle={tr.animacje.ctaSubtitle} />
+</BaseLayout>

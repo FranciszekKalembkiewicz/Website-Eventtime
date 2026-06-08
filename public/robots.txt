@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eventtime.zgora.pl/sitemap-index.xml

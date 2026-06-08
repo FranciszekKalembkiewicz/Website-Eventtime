@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "home": { "title": "Strona główna", "description": "Event Time — sprawdzona firma eventowa z Zielonej Góry. Ponad 20 lat animacji, dekoracji balonowych i fotobudek 360°. Imprezy po polsku, niemiecku, angielsku i ukraińsku." },
+    "animacje": { "title": "Animacje", "description": "Animacje na imprezy w całej Polsce — klaun, bańki mydlane, konkursy. Event Time, baza w Zielonej Górze." },
+    "dekoracje": { "title": "Dekoracje", "description": "Dekoracje balonowe na imprezy — urodziny, śluby, eventy firmowe. Event Time, Zielona Góra." },
+    "fotobudka": { "title": "Fotobudka", "description": "Fotobudka 360° na imprezy. Nowoczesna atrakcja od Event Time." },
+    "oNas": { "title": "O nas", "description": "Event Time — ponad 20 lat na rynku eventowym. Animacje, dekoracje i fotobudki 360°." }
+  },
+  "nav": {
+    "home": "Strona główna",
+    "animacje": "Animacje",
+    "dekoracje": "Dekoracje",
+    "fotobudka": "Fotobudka",
+    "sklep": "Sklep online",
+    "oNas": "O nas",
+    "cta": "Zapytaj o wycenę",
+    "openMenu": "Otwórz menu"
+  },
+  "common": {
+    "learnMore": "Dowiedz się więcej",
+    "allegro": "Przejdź na Allegro",
+    "scroll": "Przewiń",
+    "yearsOnMarket": "lat na rynku",
+    "events": "imprez",
+    "eventsDone": "zrealizowanych imprez",
+    "readMore": "Poznaj nas bliżej",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "companyData": "Dane firmy",
+    "contactForm": "Formularz kontaktowy",
+    "sendMessage": "Wyślij wiadomość",
+    "name": "Imię i nazwisko",
+    "namePlaceholder": "Jan Kowalski",
+    "emailPlaceholder": "jan@example.com",
+    "phoneOptional": "Telefon (opcjonalnie)",
+    "phonePlaceholder": "+48 000 000 000",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Opisz swoją imprezę — data, miejsce, liczba gości...",
+    "formSuccess": "Dziękujemy! Wiadomość została wysłana.",
+    "formError": "Nie udało się wysłać wiadomości. Spróbuj ponownie lub zadzwoń do nas.",
+    "navigation": "Nawigacja",
+    "contact": "Kontakt",
+    "contactFormLink": "Formularz kontaktowy",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "portfolio": "Portfolio",
+    "inShort": "W skrócie",
+    "onMarketSince": "Na rynku od",
+    "overYears": "ponad {years} lat",
+    "eventsCount": "Zrealizowane imprezy",
+    "serviceArea": "Obszar działania",
+    "services": "Usługi",
+    "servicesList": "Animacje · Dekoracje · Fotobudka 360°",
+    "writeToUs": "Napisz do nas",
+    "contactIntro": "Masz pytania? Chcesz wycenę? Odpowiadamy szybko — zadzwoń lub wyślij wiadomość.",
+    "close": "Zamknij",
+    "viewExamples": "Zobacz przykłady",
+    "clickToEnlarge": "Kliknij zdjęcie, aby je powiększyć",
+    "galleryMoreSoon": "Więcej zdjęć z tej kategorii wkrótce.",
+    "lightboxLabel": "Powiększone zdjęcie",
+    "lightboxPrev": "Poprzednie zdjęcie",
+    "lightboxNext": "Następne zdjęcie"
+  },
+  "languages": {
+    "badge": "Imprezy w 4 językach",
+    "title": "Mówimy po polsku, niemiecku, angielsku i ukraińsku",
+    "description": "Prowadzimy imprezy w całej Polsce — najczęściej na zachodzie kraju i we wschodnich Niemczech. Nasz zespół swobodnie komunikuje się w czterech językach — goście czują się zaopiekowani bez względu na pochodzenie.",
+    "list": "Polski · Niemiecki · Angielski · Ukraiński"
+  },
+  "hero": {
+    "badgeYears": "Ponad {years} lat na rynku",
+    "tagline": "Czas na Twoją imprezę!",
+    "titleLine1": "Tworzymy imprezy,",
+    "titleLine2": "które zapadają w pamięć",
+    "subtitle": "Sprawdzona firma eventowa z Zielonej Góry. Animacje, dekoracje balonowe i fotobudki 360° — realizujemy imprezy w całej Polsce, od kameralnych urodzin po duże eventy firmowe.",
+    "ctaQuote": "Zapytaj o wycenę",
+    "ctaAnimacje": "Zobacz animacje"
+  },
+  "experience": {
+    "stat3Value": "Każda okazja",
+    "stat3Label": "różnorodność tematów i niepowtarzalne przeżycia"
+  },
+  "quickLinks": {
+    "animacje": "Animacje",
+    "dekoracje": "Dekoracje",
+    "fotobudka": "Fotobudka",
+    "kontakt": "Kontakt"
+  },
+  "home": {
+    "servicesLabel": "Usługi",
+    "servicesTitle": "Co dla Ciebie przygotujemy?",
+    "servicesSubtitle": "Animacje, dekoracje i fotobudki — wszystko z ponad dwudziestoletnim doświadczeniem na rynku eventowym.",
+    "aboutLabel": "O firmie",
+    "aboutTitle": "Zaufany partner przy organizacji imprez",
+    "aboutP1": "Event Time to firma z Zielonej Góry z ponad {years}-letnią historią na rynku eventowym. Zespół animatorów i dekoratorów od lat dostarcza rozrywkę i dekoracje na imprezy prywatne i firmowe — z tym samym zaangażowaniem, niezależnie od skali wydarzenia.",
+    "aboutP2": "Znamy ten rynek od podszewki — wiemy, co sprawdza się na urodzinach dziecka, komunii, weselu czy evencie integracyjnym. Każde zlecenie traktujemy poważnie, bo nasza reputacja budowana jest od lat, impreza po imprezie.",
+    "aboutP3": "Przyjmujemy zlecenia z całej Polski — stacjonujemy w Zielonej Górze, a najczęściej pracujemy na zachodzie kraju i we wschodnich Niemczech. Dalsze dojazdy wyceniamy indywidualnie. Skontaktuj się z nami — przygotujemy ofertę dopasowaną do Twojego wydarzenia.",
+    "galleryTitle": "Nasze realizacje",
+    "gallerySubtitle": "Zdjęcia z naszych realizacji — portfolio będzie rosło wraz z kolejnymi materiałami.",
+    "aboutImageAlt": "Event Time — realizacje eventowe"
+  },
+  "services": {
+    "animacje": { "title": "Animacje", "description": "Profesjonalne animacje na każdą okazję — klaun, bańki mydlane, konkursy i atrakcje dla dzieci i dorosłych." },
+    "dekoracje": { "title": "Dekoracje", "description": "Dekoracje balonowe na urodziny, śluby, komunie i eventy firmowe — projektowane i realizowane na miejscu." },
+    "fotobudka": { "title": "Fotobudka", "description": "Fotobudka 360° — nowoczesna atrakcja, która przyciąga gości i zostawia trwałą pamiątkę z imprezy." },
+    "sklep": { "title": "Sklep online", "description": "Dekoracje i artykuły imprezowe — zamów wygodnie przez nasz profil na Allegro." }
+  },
+  "whyUs": {
+    "label": "Dlaczego Event Time",
+    "title": "Doświadczenie, na którym możesz polegać",
+    "subtitle": "Nie jesteśmy nową firmą z rynku — od lat budujemy reputację solidnego partnera przy organizacji wydarzeń.",
+    "items": [
+      { "title": "Ponad 20 lat doświadczenia", "description": "Od dwóch dekad tworzymy imprezy w całej Polsce — z bazy w Zielonej Górze. Stoi za nami zespół sprawdzonych animatorów i dekoratorów." },
+      { "title": "Sprawdzona firma", "description": "Setki rodzin i firm nam zaufało. Wiemy, co działa na imprezie — i dopinamy każdy detal, zanim goście przyjdą." },
+      { "title": "Kompleksowa obsługa", "description": "Animacje, dekoracje balonowe i fotobudka 360° z jednego miejsca. Bez szukania podwykonawców i bez niespodzianek." },
+      { "title": "Indywidualne podejście", "description": "Każda impreza jest inna. Słuchamy, doradzamy i dopasowujemy program do wieku gości, budżetu i charakteru wydarzenia." }
+    ]
+  },
+  "cta": {
+    "title": "Masz pomysł na imprezę?",
+    "subtitle": "Napisz do nas — przygotujemy wycenę dopasowaną do Twojego wydarzenia.",
+    "quote": "Zapytaj o wycenę",
+    "call": "Zadzwoń: {phone}"
+  },
+  "animacje": {
+    "heroTitle": "Animacje na każdą okazję",
+    "heroSubtitle": "Profesjonalne animacje dla dzieci i dorosłych — od urodzin po eventy firmowe, w całej Polsce.",
+    "intro": "Event Time to ponad 20 lat doświadczenia w animacjach i zespół, który zna się na prowadzeniu imprez. Prowadzimy animacje w języku polskim, niemieckim, angielskim i ukraińskim. Od kolorowego klauna, przez bańki mydlane, po pełne energii konkursy — dopasujemy program do wieku gości i charakteru uroczystości.",
+    "partyLabel": "Imprezy",
+    "partyTitle": "Rodzaje wydarzeń",
+    "partySubtitle": "Prowadzimy animacje na różne okazje — dopasujemy program do charakteru wydarzenia.",
+    "attractionsLabel": "Atrakcje",
+    "attractionsTitle": "Co możemy zaoferować?",
+    "attractionsSubtitle": "Wybierz atrakcje lub powiedz nam, czego szukasz — skomponujemy idealny program.",
+    "galleryTitle": "Galeria i referencje",
+    "ctaTitle": "Zaplanuj animacje na swoją imprezę",
+    "ctaSubtitle": "Opowiedz nam o wydarzeniu — przygotujemy program i wycenę.",
+    "partyTypes": {
+      "urodziny": { "title": "Urodziny", "description": "Program dopasowany do wieku solenizanta — od maluchów po nastolatków." },
+      "komunie": { "title": "Komunie", "description": "Lekkie, rodzinne animacje, które angażują dzieci i dorosłych." },
+      "wesela": { "title": "Wesela", "description": "Zabawy i atrakcje dla najmłodszych gości weselnych." },
+      "firmowe": { "title": "Eventy firmowe", "description": "Integracja, konkursy i animacje na pikniki i eventy B2B." },
+      "pikniki": { "title": "Pikniki i festyny", "description": "Duże imprezy plenerowe z atrakcjami dla całych rodzin." },
+      "inne": { "title": "Inne okazje", "description": "Chrzciny, baby shower, jubileusze — każda okazja jest dobra." }
+    },
+    "attractions": {
+      "klaun": { "title": "Klaun", "description": "Kolorowy klaun z zabawami, konkursami i mnóstwem śmiechu." },
+      "banki": { "title": "Bańki mydlane", "description": "Olbrzymie bańki, które zachwycają dzieci i dorosłych." },
+      "malowanie": { "title": "Malowanie twarzy", "description": "Kolorowe wzory i postacie dopasowane do motywu imprezy." },
+      "konkursy": { "title": "Konkursy i zabawy", "description": "Gry integracyjne, konkursy z nagrodami i animacje prowadzone." },
+      "warkoczyki": { "title": "Warkoczyki", "description": "Kolorowe warkoczyki i fryzury dla dzieci — szybka i lubiana atrakcja." },
+      "tatuaze": { "title": "Tatuaże brokatowe", "description": "Bezpieczne tatuaże pudrowe i chwilowe dla dzieci — brokat, wzory, kolory." },
+      "modelinowe": { "title": "Balony modelinowe", "description": "Zwierzęta, miecze i figurki z balonów modelinowych — każde dziecko dostaje pamiątkę." },
+      "wataPopcorn": { "title": "Maszyny do waty i popcornu", "description": "Świeża wata cukrowa i pachnący popcorn prosto z maszyn — słodka atrakcja na festyny, pikniki i imprezy plenerowe." },
+      "dmuchance": { "title": "Dmuchańce", "description": "Bezpieczna atrakcja, która dostarcza energii na całe popołudnie." }
+    },
+    "testimonials": [
+      { "text": "Świetna organizacja i kontakt z dziećmi. Polecamy!", "author": "Opinia klienta — wkrótce więcej" },
+      { "text": "Profesjonalne podejście i mnóstwo uśmiechu na imprezie.", "author": "Opinia klienta — wkrótce więcej" }
+    ]
+  },
+  "dekoracje": {
+    "heroTitle": "Dekoracje balonowe",
+    "heroSubtitle": "Od urodzinowych arkad po eleganckie kompozycje ślubne — zrealizujemy Twoją wizję.",
+    "intro": "Tworzymy dekoracje balonowe na każdą okazję — od urodzinowych arkad po eleganckie kompozycje ślubne. Oferujemy też ścianki cekinowe, kwiatowe i roślinne, liczby oraz napisy LED i kompletne aranżacje na eventy firmowe. Każda realizacja jest projektowana indywidualnie.",
+    "categoriesLabel": "Kategorie",
+    "categoriesTitle": "Co możemy dla Ciebie przygotować",
+    "categoriesSubtitle": "Łuki balonowe, ścianki dekoracyjne, napisy LED i kompozycje dopasowane do charakteru wydarzenia.",
+    "galleryTitle": "Nasze realizacje",
+    "ctaTitle": "Potrzebujesz dekoracji na imprezę?",
+    "ctaSubtitle": "Opisz nam swoją wizję — przygotujemy projekt i wycenę.",
+    "categories": {
+      "luki": {
+        "title": "Łuki i girlandy balonowe",
+        "description": "Organiczne łuki, bramy wejściowe i girlandy — od klasycznych po nowoczesne kompozycje.",
+        "detail": "Projektujemy i montujemy organiczne łuki, bramy wejściowe oraz girlandy balonowe. Dopasowujemy kolory i skalę do sali, ogrodu lub wejścia do lokalu — od subtelnych kompozycji po efektowne arki na całą ścianę."
+      },
+      "urodziny": {
+        "title": "Urodziny i przyjęcia dziecięce",
+        "description": "Ścianki tematyczne, liczby z balonów i dekoracje w ulubionych kolorach solenizanta.",
+        "detail": "Dekoracje na urodziny dzieci i dorosłych — ścianki tematyczne, liczby z balonów, kompozycje przy wejściu i na stole. Możemy powtórzyć motyw ulubionej postaci lub dopasować kolory do Twojej wizji."
+      },
+      "sluby": {
+        "title": "Śluby i wesela",
+        "description": "Eleganckie dekoracje sali, wejść i stołów — balony połączone z kwiatami i detalami.",
+        "detail": "Eleganckie dekoracje na śluby i wesela — łuki przy wejściu, kompozycje za parą młodą, stoły i detale z balonów połączone z kwiatami. Stonowana kolorystyka lub odważne akcenty — zależy od Was."
+      },
+      "cekinowe": {
+        "title": "Ścianki cekinowe",
+        "description": "Błyszczące ścianki foto w różnych kolorach — idealne tło na imprezy i eventy.",
+        "detail": "Błyszczące ścianki z cekinów w różnych kolorach — złote, srebrne, czarne i inne. Idealne tło do zdjęć na imprezach prywatnych i firmowych. Można je łączyć z banerami, napisami LED i brandingiem."
+      },
+      "liczbyLed": {
+        "title": "Liczby i napisy LED",
+        "description": "Podświetlane cyfry, napisy i elementy neonowe — na wynajem lub jako część aranżacji.",
+        "detail": "Podświetlane cyfry i napisy LED — na wynajem lub jako element większej aranżacji. Popularne na urodziny, jubileusze i eventy firmowe. Montujemy na miejscu i dopasowujemy do reszty dekoracji."
+      },
+      "kwiatowe": {
+        "title": "Ścianki kwiatowe i roślinne",
+        "description": "Kompozycje z kwiatów i zieleni — naturalne tło do zdjęć i dekoracja sali.",
+        "detail": "Ścianki kwiatowe i roślinne — naturalne tło do zdjęć gości. Łączymy zielone i kwiatowe kompozycje z balonami, tworząc spójną dekorację sali lub strefy foto."
+      },
+      "firmowe": {
+        "title": "Eventy firmowe",
+        "description": "Branding, balony z logo, ścianki i dekoracje na gale, konferencje i integracje.",
+        "detail": "Dekoracje na gale, konferencje i eventy integracyjne — ścianki z logo, balony w firmowych kolorach, napisy LED i kompletne aranżacje strefy eventowej."
+      },
+      "inne": {
+        "title": "Komunie i inne okazje",
+        "description": "Komunie, baby shower, andrzejki, jubileusze — dopasujemy styl do wydarzenia.",
+        "detail": "Komunie, baby shower, andrzejki, jubileusze i inne uroczystości — dopasowujemy styl i skalę dekoracji do charakteru spotkania i miejsca."
+      }
+    }
+  },
+  "fotobudka": {
+    "heroTitle": "Fotobudka 360°",
+    "heroSubtitle": "Nowoczesna atrakcja, która zbiera reakcje i tworzy niezapomniane wspomnienia.",
+    "intro": "Fotobudka 360° to osobna, nowoczesna usługa Event Time — obok animacji i dekoracji, z tym samym doświadczeniem i profesjonalizmem, które znasz od nas od lat. Goście wchodzą na obrotową platformę, a kamera nagrywa efektowne ujęcia z każdej strony. To atrakcja, która sama przyciąga tłumy i generuje świetny content do social mediów.",
+    "stepsTitle": "Jak to działa?",
+    "steps": [
+      { "title": "Ustawiamy sprzęt", "description": "Przywozimy fotobudkę 360° i przygotowujemy stanowisko na Twojej imprezie." },
+      { "title": "Nagrywamy", "description": "Goście wchodzą na platformę — kamera nagrywa dynamiczne ujęcia z każdej strony." },
+      { "title": "Udostępniamy", "description": "Gotowe filmy trafiają do uczestników — idealna pamiątka z wydarzenia." }
+    ],
+    "galleryTitle": "Galeria",
+    "ctaTitle": "Chcesz fotobudkę na swojej imprezie?",
+    "ctaSubtitle": "Napisz do nas — podamy dostępność i wycenę."
+  },
+  "oNas": {
+    "heroTitle": "O nas",
+    "heroSubtitle": "Ponad 20 lat doświadczenia, zaufany zespół i tysiące zrealizowanych imprez.",
+    "historyLabel": "Nasza historia",
+    "historyTitle": "Event Time",
+    "historyP1": "Event Time to sprawdzona firma eventowa z Zielonej Góry, obecna na rynku od ponad 20 lat. Przez te lata zbudowaliśmy zespół, który łączy pasję do animacji z profesjonalnym podejściem do każdego zlecenia.",
+    "historyP2": "Współpracujemy z doświadczonymi animatorami i dekoratorami — ludźmi, którzy znają się na dzieciach, wiedzą jak rozkręcić imprezę i potrafią zadbać o każdy detal, od pierwszego telefonu po ostatni balon na sali.",
+    "historyP3": "Specjalizujemy się w animacjach, dekoracjach balonowych i fotobudkach 360°. Obsługujemy urodziny, komunie, wesela, eventy firmowe i imprezy plenerowe w całej Polsce — najczęściej na zachodzie kraju i we wschodnich Niemczech.",
+    "historyP4": "Prowadzimy imprezy w języku polskim, niemieckim, angielskim i ukraińskim. Zapraszamy do kontaktu — chętnie opowiemy więcej i przygotujemy wycenę.",
+    "teamImageAlt": "Zespół Event Time"
+  },
+  "location": "Polska i Niemcy · baza: Zielona Góra",
+  "serviceArea": {
+    "badge": "Gdzie działamy",
+    "title": "Polska i Niemcy — baza w Zielonej Górze",
+    "description": "Stacjonujemy w Zielonej Górze, ale przyjmujemy zlecenia z całej Polski i Niemiec. Najczęściej realizujemy imprezy na zachodzie Polski i we wschodnich Niemczech — tam mamy największe doświadczenie i najkrótszy czas dojazdu.",
+    "travelNote": "Imprezy w dalszych regionach też realizujemy chętnie. Koszt dojazdu ustalamy przy wycenie — przejrzyście, bez ukrytych opłat.",
+    "base": "Nasza baza",
+    "baseDesc": "Zielona Góra",
+    "primaryZone": "Najczęstszy obszar",
+    "primaryZoneDesc": "Zachodnia Polska i wschodnie Niemcy",
+    "nationwide": "Zlecenia z całej Polski i Niemiec",
+    "nationwideDesc": "przyjmujemy — dalsze dojazdy wyceniamy indywidualnie",
+    "mapLabel": "Mapa zasięgu Event Time: baza w Zielonej Górze, najczęstszy obszar na zachodzie Polski i we wschodnich Niemczech, zlecenia z całej Polski i Niemiec"
+  }
+}

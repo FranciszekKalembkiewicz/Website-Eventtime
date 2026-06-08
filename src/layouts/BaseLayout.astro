@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+import TopBar from '../components/TopBar.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import Lightbox from '../components/Lightbox.astro';
+import { site } from '../config/site';
+import { getTranslations } from '../i18n';
+import { htmlLang, ogLocale, type Locale } from '../i18n/locales';
+import { locales } from '../i18n/locales';
+import { getPathKey, localizedUrl } from '../i18n/utils';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+const { title, description } = Astro.props;
+const metaDescription = description ?? tr.meta.home.description;
+const canonical = new URL(Astro.url.pathname, site.siteUrl).href;
+const pathKey = getPathKey(Astro.url.pathname);
+---
+
+<!doctype html>
+<html lang={htmlLang[locale]}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={metaDescription} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+    <link rel="canonical" href={canonical} />
+    {locales.map((loc) => (
+      <link rel="alternate" hreflang={htmlLang[loc]} href={new URL(localizedUrl(loc, pathKey), site.siteUrl).href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={new URL(localizedUrl('pl', pathKey), site.siteUrl).href} />
+    <meta property="og:title" content={`${title} | ${site.name}`} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale[locale]} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>{title} | {site.name}</title>
+  </head>
+  <body class="min-h-screen flex flex-col antialiased">
+    <TopBar />
+    <Navbar />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+    <Lightbox />
+  </body>
+</html>
+
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    },
+    { threshold: 0.1, rootMargin: '0px 0px -40px 0px' }
+  );
+
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+</script>

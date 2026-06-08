@@ -1,0 +1,29 @@
+{
+  "intro": "Tworzymy dekoracje balonowe na każdą okazję — od urodzinowych arkad po eleganckie kompozycje ślubne. Każda realizacja jest projektowana indywidualnie, z dbałością o detale i kolorystykę.",
+  "categories": [
+    {
+      "id": "urodziny",
+      "title": "Urodziny",
+      "description": "Arcady, girlandy i kompozycje balonowe w ulubionych kolorach.",
+      "image": "/images/placeholders/deco-urodziny.svg"
+    },
+    {
+      "id": "sluby",
+      "title": "Śluby",
+      "description": "Eleganckie dekoracje sali i stołów — balony, kwiaty, detale.",
+      "image": "/images/placeholders/deco-sluby.svg"
+    },
+    {
+      "id": "firmowe",
+      "title": "Eventy firmowe",
+      "description": "Branding, balony z logo i dekoracje na gale i konferencje.",
+      "image": "/images/placeholders/deco-firmowe.svg"
+    },
+    {
+      "id": "inne",
+      "title": "Inne okazje",
+      "description": "Komunie, baby shower, jubileusze — dopasujemy styl do wydarzenia.",
+      "image": "/images/placeholders/deco-inne.svg"
+    }
+  ]
+}

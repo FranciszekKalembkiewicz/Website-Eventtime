@@ -1,0 +1,30 @@
+---
+import { getTranslations } from '../i18n';
+import { localizedUrl } from '../i18n/utils';
+import type { Locale } from '../i18n/locales';
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+
+const links = [
+  { label: tr.quickLinks.animacje, href: localizedUrl(locale, '/animacje') },
+  { label: tr.quickLinks.dekoracje, href: localizedUrl(locale, '/dekoracje') },
+  { label: tr.quickLinks.fotobudka, href: localizedUrl(locale, '/fotobudka') },
+  { label: tr.quickLinks.kontakt, href: `${localizedUrl(locale, '/o-nas')}#kontakt` },
+];
+---
+
+<section class="py-6 bg-surface border-b border-gray-100">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex flex-wrap justify-center gap-3">
+      {links.map((link) => (
+        <a
+          href={link.href}
+          class="px-5 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-200 rounded-full hover:border-accent hover:text-accent transition-colors"
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,79 @@
+---
+import { site } from '../config/site';
+import { getTranslations } from '../i18n';
+import { localizedUrl } from '../i18n/utils';
+import type { Locale } from '../i18n/locales';
+import Logo from './Logo.astro';
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+
+const navItems = [
+  { label: tr.nav.home, pathKey: '/', external: false },
+  { label: tr.nav.animacje, pathKey: '/animacje', external: false },
+  { label: tr.nav.dekoracje, pathKey: '/dekoracje', external: false },
+  { label: tr.nav.fotobudka, pathKey: '/fotobudka', external: false },
+  { label: tr.nav.sklep, href: site.allegroUrl, external: true },
+  { label: tr.nav.oNas, pathKey: '/o-nas', external: false },
+];
+---
+
+<footer class="bg-ink text-gray-400">
+  <div class="max-w-7xl mx-auto px-4 py-14 grid md:grid-cols-3 gap-10">
+    <div>
+      <div class="flex items-center gap-3 mb-5">
+        <Logo variant="footer" />
+      </div>
+      <p class="text-sm leading-relaxed text-gray-500">{tr.hero.tagline}</p>
+      <p class="text-sm mt-2 text-gray-500">{tr.location}</p>
+    </div>
+
+    <div>
+      <h3 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">{tr.common.navigation}</h3>
+      <ul class="space-y-2.5 text-sm">
+        {navItems.map((item) => (
+          <li>
+            {item.external ? (
+              <a href={item.href} target="_blank" rel="noopener noreferrer" class="hover:text-accent transition-colors">
+                {item.label}
+              </a>
+            ) : (
+              <a href={localizedUrl(locale, item.pathKey!)} class="hover:text-accent transition-colors">{item.label}</a>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">{tr.common.contact}</h3>
+      <ul class="space-y-2.5 text-sm">
+        <li>
+          <a href={`tel:${site.phone.replace(/\s/g, '')}`} class="hover:text-accent transition-colors">
+            {site.phone}
+          </a>
+        </li>
+        <li>
+          <a href={`mailto:${site.email}`} class="hover:text-accent transition-colors">
+            {site.email}
+          </a>
+        </li>
+        <li class="pt-2">
+          <a href={`${localizedUrl(locale, '/o-nas')}#kontakt`} class="inline-flex items-center gap-1 text-accent hover:text-white transition-colors font-medium">
+            {tr.common.contactFormLink}
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between gap-4 text-xs text-gray-600">
+      <p>© {new Date().getFullYear()} {site.name}. {tr.common.rights}</p>
+      <p>{site.company.legalName} · NIP {site.company.nip} · REGON {site.company.regon}</p>
+    </div>
+  </div>
+</footer>

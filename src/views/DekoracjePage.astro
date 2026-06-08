@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import DecoCategoryGrid from '../components/DecoCategoryGrid.astro';
+import Gallery from '../components/Gallery.astro';
+import CTASection from '../components/CTASection.astro';
+import { getTranslations } from '../i18n';
+import { getDekoracjeData } from '../i18n/data';
+import { filterGallery, filterByDecoCategory } from '../data/gallery';
+
+const tr = getTranslations(Astro.currentLocale);
+const dekoracjeData = getDekoracjeData(tr);
+
+const categoryImages = Object.fromEntries(
+  dekoracjeData.categories.map((cat) => [cat.id, filterByDecoCategory(cat.id)])
+);
+---
+
+<BaseLayout title={tr.meta.dekoracje.title} description={tr.meta.dekoracje.description}>
+  <PageHero
+    title={tr.dekoracje.heroTitle}
+    subtitle={tr.dekoracje.heroSubtitle}
+    image="/images/hero-dekoracje.jpg"
+  />
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-3xl mx-auto px-4 text-center reveal">
+      <p class="text-gray-500 text-lg leading-relaxed">{dekoracjeData.intro}</p>
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20 bg-surface">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label={tr.dekoracje.categoriesLabel}
+        title={tr.dekoracje.categoriesTitle}
+        subtitle={tr.dekoracje.categoriesSubtitle}
+      />
+      <DecoCategoryGrid
+        categories={dekoracjeData.categories}
+        categoryImages={categoryImages}
+        viewExamplesLabel={tr.common.viewExamples}
+        closeLabel={tr.common.close}
+        enlargeHint={tr.common.clickToEnlarge}
+        noImagesLabel={tr.common.galleryMoreSoon}
+      />
+    </div>
+  </section>
+
+  <section class="py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading label={tr.common.portfolio} title={tr.dekoracje.galleryTitle} />
+      <Gallery images={filterGallery('dekoracje')} groupId="dekoracje-all" />
+    </div>
+  </section>
+
+  <CTASection title={tr.dekoracje.ctaTitle} subtitle={tr.dekoracje.ctaSubtitle} />
+</BaseLayout>

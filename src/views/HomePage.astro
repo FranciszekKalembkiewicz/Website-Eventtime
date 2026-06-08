@@ -1,0 +1,137 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import ExperienceBar from '../components/ExperienceBar.astro';
+import LanguagesStrip from '../components/LanguagesStrip.astro';
+import QuickLinks from '../components/QuickLinks.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import WhyUs from '../components/WhyUs.astro';
+import Gallery from '../components/Gallery.astro';
+import CTASection from '../components/CTASection.astro';
+import { site } from '../config/site';
+import { getTranslations } from '../i18n';
+import { fmt, localizedUrl } from '../i18n/utils';
+import type { Locale } from '../i18n/locales';
+import { filterGallery } from '../data/gallery';
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const tr = getTranslations(locale);
+
+const services = [
+  {
+    title: tr.services.animacje.title,
+    description: tr.services.animacje.description,
+    image: '/images/service-animacje.jpg',
+    href: localizedUrl(locale, '/animacje'),
+    glowColor: '#7c3aed',
+  },
+  {
+    title: tr.services.dekoracje.title,
+    description: tr.services.dekoracje.description,
+    image: '/images/service-dekoracje.jpg',
+    href: localizedUrl(locale, '/dekoracje'),
+    glowColor: '#e91e8c',
+  },
+  {
+    title: tr.services.fotobudka.title,
+    description: tr.services.fotobudka.description,
+    image: '/images/service-fotobudka.jpg',
+    imagePosition: 'center 35%',
+    href: localizedUrl(locale, '/fotobudka'),
+    glowColor: '#38bdf8',
+  },
+  {
+    title: tr.services.sklep.title,
+    description: tr.services.sklep.description,
+    image: '/images/service-sklep.jpg',
+    href: site.allegroUrl,
+    external: true,
+    glowColor: '#f4a826',
+  },
+];
+---
+
+<BaseLayout title={tr.meta.home.title}>
+  <Hero />
+  <ExperienceBar />
+  <LanguagesStrip />
+  <QuickLinks />
+
+  <section class="py-20 md:py-28">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label={tr.home.servicesLabel}
+        title={tr.home.servicesTitle}
+        subtitle={tr.home.servicesSubtitle}
+      />
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 items-stretch">
+        {services.map((service, i) => (
+          <ServiceCard {...service} index={i} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 md:py-28 bg-surface">
+    <div class="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-14 items-center">
+      <div class="reveal">
+        <span class="text-xs font-bold uppercase tracking-[0.2em] text-accent mb-3 block">{tr.home.aboutLabel}</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-ink tracking-tight mb-6">
+          {tr.home.aboutTitle}
+        </h2>
+        <p class="text-gray-500 leading-relaxed mb-4">
+          {fmt(tr.home.aboutP1, { years: site.yearsOnMarket })}
+        </p>
+        <p class="text-gray-500 leading-relaxed mb-4">
+          {tr.home.aboutP2}
+        </p>
+        <p class="text-gray-500 leading-relaxed mb-8">
+          {tr.home.aboutP3}
+        </p>
+        <a
+          href={localizedUrl(locale, '/o-nas')}
+          class="inline-flex items-center gap-2 text-accent font-semibold hover:gap-3 transition-all"
+        >
+          {tr.common.readMore}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </a>
+      </div>
+      <div class="reveal rounded-3xl overflow-hidden shadow-2xl shadow-ink/10 relative">
+        <img
+          src="/images/about-home.jpg"
+          alt={tr.home.aboutImageAlt}
+          class="w-full aspect-[4/3] object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-tr from-accent/20 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 right-6 bg-ink/80 backdrop-blur-sm rounded-xl px-5 py-4 text-white flex justify-between items-center gap-4">
+          <div>
+            <p class="text-2xl font-bold">{site.yearsOnMarket}+</p>
+            <p class="text-xs text-white/60 uppercase tracking-wider">{tr.common.yearsOnMarket}</p>
+          </div>
+          <div class="text-right">
+            <p class="text-2xl font-bold">1000+</p>
+            <p class="text-xs text-white/60 uppercase tracking-wider">{tr.common.events}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <WhyUs />
+
+  <section class="py-20 md:py-28">
+    <div class="max-w-7xl mx-auto px-4">
+      <SectionHeading
+        label={tr.common.portfolio}
+        title={tr.home.galleryTitle}
+        subtitle={tr.home.gallerySubtitle}
+      />
+      <Gallery images={filterGallery('home')} groupId="home" />
+    </div>
+  </section>
+
+  <CTASection />
+</BaseLayout>

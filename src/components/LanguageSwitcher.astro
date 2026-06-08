@@ -1,0 +1,32 @@
+---
+import { localeNames, locales, type Locale } from '../i18n/locales';
+import { getPathKey, localizedUrl } from '../i18n/utils';
+import FlagIcon from './FlagIcon.astro';
+
+const locale = (Astro.currentLocale ?? 'pl') as Locale;
+const pathKey = getPathKey(Astro.url.pathname);
+---
+
+<div class="flex items-center gap-0.5 rounded-full bg-black/5 p-0.5" role="navigation" aria-label="Język / Language">
+  {locales.map((loc) => {
+    const isActive = loc === locale;
+    const href = localizedUrl(loc, pathKey);
+    const label = localeNames[loc];
+    return (
+      <a
+        href={href}
+        hreflang={loc}
+        title={label}
+        aria-label={label}
+        class={`flex items-center justify-center p-1.5 rounded-full transition-all ${
+          isActive
+            ? 'bg-accent shadow-sm ring-2 ring-accent/30'
+            : 'hover:bg-white opacity-70 hover:opacity-100'
+        }`}
+        aria-current={isActive ? 'page' : undefined}
+      >
+        <FlagIcon locale={loc} />
+      </a>
+    );
+  })}
+</div>
