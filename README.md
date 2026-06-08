@@ -2,12 +2,14 @@
 
 Wielojęzyczna strona firmowa dla **Event Time** - firmy eventowej z Zielonej Góry (animacje, dekoracje balonowe, fotobudki 360°). Projekt został zbudowany od podstaw jako prezent na potrzeby rodzinnej działalności.
 
+**Strona:** [https://eventtime.zgora.pl](https://eventtime.zgora.pl/)
+
 ## Informacje o projekcie
 
 | Pole | Wartość |
 |------|---------|
 | **Typ** | Statyczna strona wizytówkowa (SSG) |
-| **Docelowa domena** | `eventtime.zgora.pl` |
+| **Domena** | [eventtime.zgora.pl](https://eventtime.zgora.pl/) |
 | **Języki** | Polski (domyślny), niemiecki, angielski, ukraiński |
 | **Podstrony** | Strona główna, Animacje, Dekoracje, Fotobudka, O nas (+ kontakt) |
 | **Status** | Gotowa do wdrożenia - checklista publikacji w [HANDOFF.md](HANDOFF.md) |
