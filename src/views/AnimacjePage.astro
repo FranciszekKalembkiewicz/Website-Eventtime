@@ -56,7 +56,7 @@ const animacjeData = getAnimacjeData(tr);
         {animacjeData.testimonials.map((t, i) => (
           <blockquote class="reveal bento-card rounded-2xl p-6" style={`transition-delay: ${i * 100}ms`}>
             <p class="text-gray-500 leading-relaxed mb-3">„{t.text}"</p>
-            <cite class="text-sm text-accent font-semibold not-italic">— {t.author}</cite>
+            <cite class="text-sm text-accent font-semibold not-italic"> - {t.author}</cite>
           </blockquote>
         ))}
       </div>

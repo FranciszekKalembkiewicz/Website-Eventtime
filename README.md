@@ -1,6 +1,6 @@
-# Event Time — Corporate Website
+# Event Time - Corporate Website
 
-Wielojęzyczna strona firmowa dla **Event Time** — firmy eventowej z Zielonej Góry (animacje, dekoracje balonowe, fotobudki 360°). Projekt został zbudowany od podstaw jako prezent na potrzeby rodzinnej działalności.
+Wielojęzyczna strona firmowa dla **Event Time** - firmy eventowej z Zielonej Góry (animacje, dekoracje balonowe, fotobudki 360°). Projekt został zbudowany od podstaw jako prezent na potrzeby rodzinnej działalności.
 
 ## Informacje o projekcie
 
@@ -10,7 +10,7 @@ Wielojęzyczna strona firmowa dla **Event Time** — firmy eventowej z Zielonej 
 | **Docelowa domena** | `eventtime.zgora.pl` |
 | **Języki** | Polski (domyślny), niemiecki, angielski, ukraiński |
 | **Podstrony** | Strona główna, Animacje, Dekoracje, Fotobudka, O nas (+ kontakt) |
-| **Status** | Gotowa do wdrożenia — checklista publikacji w [HANDOFF.md](HANDOFF.md) |
+| **Status** | Gotowa do wdrożenia - checklista publikacji w [HANDOFF.md](HANDOFF.md) |
 
 ## Stack technologiczny
 
@@ -27,14 +27,14 @@ Wielojęzyczna strona firmowa dla **Event Time** — firmy eventowej z Zielonej 
 
 ## Funkcjonalności
 
-- **Routing wielojęzyczny** — 4 locale z prefiksem URL (`/de/`, `/en/`, `/uk/`) i polskim jako domyślnym bez prefiksu
-- **Sekcje usług** — karty z obrazami, galerie portfolio z filtrowaniem po tagach
-- **Dekoracje** — siatka 8 kategorii z modalem i podglądem realizacji
-- **Animacje** — rodzaje imprez i atrakcje z mapowaniem zdjęć / placeholderów
-- **Mapa zasięgu** — ilustracja SVG (Polska, Niemcy) bez zewnętrznego API mapowego
-- **Lightbox** — powiększanie zdjęć w galerii
-- **Responsywność** — layout mobilny i desktopowy
-- **Przełącznik języka** — flagi z pełnymi nazwami w `aria-label`
+- **Routing wielojęzyczny** - 4 locale z prefiksem URL (`/de/`, `/en/`, `/uk/`) i polskim jako domyślnym bez prefiksu
+- **Sekcje usług** - karty z obrazami, galerie portfolio z filtrowaniem po tagach
+- **Dekoracje** - siatka 8 kategorii z modalem i podglądem realizacji
+- **Animacje** - rodzaje imprez i atrakcje z mapowaniem zdjęć / placeholderów
+- **Mapa zasięgu** - ilustracja SVG (Polska, Niemcy) bez zewnętrznego API mapowego
+- **Lightbox** - powiększanie zdjęć w galerii
+- **Responsywność** - layout mobilny i desktopowy
+- **Przełącznik języka** - flagi z pełnymi nazwami w `aria-label`
 
 ## Struktura repozytorium
 
@@ -80,7 +80,7 @@ npm install
 npm run dev
 ```
 
-**Formspree:** prawdziwy endpoint trzymaj w `.env` jako `PUBLIC_FORMSPREE_ENDPOINT` — nigdy w commicie.
+**Formspree:** prawdziwy endpoint trzymaj w `.env` jako `PUBLIC_FORMSPREE_ENDPOINT` - nigdy w commicie.
 
 ### Materiały w repozytorium
 
@@ -113,7 +113,7 @@ npm run build
 npm run preview
 ```
 
-Wynik buildu: katalog `dist/` — gotowy do wgrania na serwer WWW.
+Wynik buildu: katalog `dist/` - gotowy do wgrania na serwer WWW.
 
 ## Konfiguracja
 
@@ -152,7 +152,7 @@ Dopóki endpoint zawiera placeholder `YOUR_FORM_ID`, formularz nie wysyła wiado
 
 Instrukcja dla administratora serwera (nginx, Apache, HTTPS, przekierowania): **[deploy/README.md](deploy/README.md)**
 
-Tymczasowy podgląd online (bez własnej domeny): Netlify Drop, Cloudflare Pages lub Vercel — build command: `npm run build`, output: `dist`.
+Tymczasowy podgląd online (bez własnej domeny): Netlify Drop, Cloudflare Pages lub Vercel - build command: `npm run build`, output: `dist`.
 
 ## Checklista przed publikacją
 
@@ -160,7 +160,7 @@ Szablon: **[HANDOFF.example.md](HANDOFF.example.md)**. Pełna wersja z listą zd
 
 ## Autor
 
-Projekt osobisty — strona firmowa stworzona jako prezent dla rodzinnej firmy eventowej. Repozytorium służy dokumentacji technicznej i prezentacji umiejętności frontendowych (Astro, TypeScript, i18n, responsywny UI).
+Projekt osobisty - strona firmowa stworzona jako prezent dla rodzinnej firmy eventowej. Repozytorium służy dokumentacji technicznej i prezentacji umiejętności frontendowych (Astro, TypeScript, i18n, responsywny UI).
 
 ## Licencja
 

@@ -1,10 +1,10 @@
 {
-  "intro": "Event Time to ponad 20 lat doświadczenia w animacjach i zespół, który zna się na prowadzeniu imprez. Od kolorowego klauna, przez bańki mydlane, po pełne energii konkursy — dopasujemy program do wieku gości i charakteru uroczystości.",
+  "intro": "Event Time to ponad 20 lat doświadczenia w animacjach i zespół, który zna się na prowadzeniu imprez. Od kolorowego klauna, przez bańki mydlane, po pełne energii konkursy - dopasujemy program do wieku gości i charakteru uroczystości.",
   "partyTypes": [
     {
       "id": "urodziny",
       "title": "Urodziny",
-      "description": "Program dopasowany do wieku solenizanta — od maluchów po nastolatków.",
+      "description": "Program dopasowany do wieku solenizanta - od maluchów po nastolatków.",
       "image": "/images/placeholders/party-urodziny.svg"
     },
     {
@@ -34,7 +34,7 @@
     {
       "id": "inne",
       "title": "Inne okazje",
-      "description": "Chrzciny, baby shower, jubileusze — każda okazja jest dobra.",
+      "description": "Chrzciny, baby shower, jubileusze - każda okazja jest dobra.",
       "image": "/images/placeholders/party-inne.svg"
     }
   ],
@@ -72,7 +72,7 @@
     {
       "id": "inne",
       "title": "Inne atrakcje",
-      "description": "Dodatkowe atrakcje — opisz nam swoją wizję, a my ją zrealizujemy.",
+      "description": "Dodatkowe atrakcje - opisz nam swoją wizję, a my ją zrealizujemy.",
       "image": "/images/placeholders/attr-inne.svg"
     }
   ],
@@ -80,12 +80,12 @@
     {
       "id": "1",
       "text": "Świetna organizacja i kontakt z dziećmi. Polecamy!",
-      "author": "Opinia klienta — wkrótce więcej"
+      "author": "Opinia klienta - wkrótce więcej"
     },
     {
       "id": "2",
       "text": "Profesjonalne podejście i mnóstwo uśmiechu na imprezie.",
-      "author": "Opinia klienta — wkrótce więcej"
+      "author": "Opinia klienta - wkrótce więcej"
     }
   ]
 }

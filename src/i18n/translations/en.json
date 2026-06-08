@@ -1,10 +1,10 @@
 {
   "meta": {
-    "home": { "title": "Home", "description": "Event Time — trusted event company from Zielona Góra. Over 20 years of animations, balloon decorations and 360° photo booths. Events in Polish, German, English and Ukrainian." },
-    "animacje": { "title": "Animations", "description": "Event animations in Zielona Góra, Germany and beyond — clown, bubbles, contests. Event Time." },
+    "home": { "title": "Home", "description": "Event Time - trusted event company from Zielona Góra. Over 20 years of animations, balloon decorations and 360° photo booths. Events in Polish, German, English and Ukrainian." },
+    "animacje": { "title": "Animations", "description": "Event animations in Zielona Góra, Germany and beyond - clown, bubbles, contests. Event Time." },
     "dekoracje": { "title": "Decorations", "description": "Balloon decorations for birthdays, weddings and corporate events. Event Time." },
     "fotobudka": { "title": "Photo booth", "description": "360° photo booth for events. Modern attraction by Event Time." },
-    "oNas": { "title": "About us", "description": "Event Time — over 20 years in the event industry. Animations, decorations and 360° photo booths." }
+    "oNas": { "title": "About us", "description": "Event Time - over 20 years in the event industry. Animations, decorations and 360° photo booths." }
   },
   "nav": {
     "home": "Home",
@@ -35,7 +35,7 @@
     "phoneOptional": "Phone (optional)",
     "phonePlaceholder": "+48 000 000 000",
     "message": "Message",
-    "messagePlaceholder": "Describe your event — date, venue, number of guests...",
+    "messagePlaceholder": "Describe your event - date, venue, number of guests...",
     "formSuccess": "Thank you! Your message has been sent.",
     "formError": "Could not send the message. Please try again or call us.",
     "navigation": "Navigation",
@@ -51,7 +51,7 @@
     "services": "Services",
     "servicesList": "Animations · Decorations · 360° photo booth",
     "writeToUs": "Write to us",
-    "contactIntro": "Questions? Need a quote? We reply quickly — call or send a message.",
+    "contactIntro": "Questions? Need a quote? We reply quickly - call or send a message.",
     "close": "Close",
     "viewExamples": "View examples",
     "clickToEnlarge": "Click a photo to enlarge it",
@@ -63,7 +63,7 @@
   "languages": {
     "badge": "Events in 4 languages",
     "title": "We speak Polish, German, English and Ukrainian",
-    "description": "We run events across Poland — most often in the west of the country and in eastern Germany. Our team communicates fluently in four languages — guests feel cared for regardless of background.",
+    "description": "We run events across Poland - most often in the west of the country and in eastern Germany. Our team communicates fluently in four languages - guests feel cared for regardless of background.",
     "list": "Polish · German · English · Ukrainian"
   },
   "hero": {
@@ -71,7 +71,7 @@
     "tagline": "Time for your party!",
     "titleLine1": "We create events",
     "titleLine2": "that stay in memory",
-    "subtitle": "Trusted event company from Zielona Góra. Animations, balloon decorations and 360° photo booths — we deliver events across Poland, from intimate birthdays to large corporate events.",
+    "subtitle": "Trusted event company from Zielona Góra. Animations, balloon decorations and 360° photo booths - we deliver events across Poland, from intimate birthdays to large corporate events.",
     "ctaQuote": "Request a quote",
     "ctaAnimacje": "View animations"
   },
@@ -88,110 +88,110 @@
   "home": {
     "servicesLabel": "Services",
     "servicesTitle": "What can we prepare for you?",
-    "servicesSubtitle": "Animations, decorations and photo booths — all backed by over twenty years of experience in the event industry.",
+    "servicesSubtitle": "Animations, decorations and photo booths - all backed by over twenty years of experience in the event industry.",
     "aboutLabel": "About us",
     "aboutTitle": "A trusted partner in event organisation",
-    "aboutP1": "Event Time is a company from Zielona Góra with over {years} years of history in the event market. Our team of animators and decorators has been delivering entertainment and decorations for private and corporate events — with the same commitment, regardless of scale.",
-    "aboutP2": "We know this market inside out — we know what works at a child's birthday, communion, wedding or team-building event. We treat every booking seriously, because our reputation has been built event by event over the years.",
-    "aboutP3": "We accept bookings from across Poland — we are based in Zielona Góra and most often work in the west of the country and eastern Germany. Longer travel is quoted individually. Contact us — we will prepare an offer tailored to your event.",
+    "aboutP1": "Event Time is a company from Zielona Góra with over {years} years of history in the event market. Our team of animators and decorators has been delivering entertainment and decorations for private and corporate events - with the same commitment, regardless of scale.",
+    "aboutP2": "We know this market inside out - we know what works at a child's birthday, communion, wedding or team-building event. We treat every booking seriously, because our reputation has been built event by event over the years.",
+    "aboutP3": "We accept bookings from across Poland - we are based in Zielona Góra and most often work in the west of the country and eastern Germany. Longer travel is quoted individually. Contact us - we will prepare an offer tailored to your event.",
     "galleryTitle": "Our work",
-    "gallerySubtitle": "Photos from our events — the portfolio will grow as more materials arrive.",
-    "aboutImageAlt": "Event Time — event portfolio"
+    "gallerySubtitle": "Photos from our events - the portfolio will grow as more materials arrive.",
+    "aboutImageAlt": "Event Time - event portfolio"
   },
   "services": {
-    "animacje": { "title": "Animations", "description": "Professional animations for every occasion — clown, bubbles, contests and attractions for children and adults." },
-    "dekoracje": { "title": "Decorations", "description": "Balloon decorations for birthdays, weddings, communions and corporate events — designed and installed on site." },
-    "fotobudka": { "title": "Photo booth", "description": "360° photo booth — a modern attraction that draws guests in and leaves a lasting memory." },
-    "sklep": { "title": "Online shop", "description": "Decorations and party supplies — order conveniently via our Allegro profile." }
+    "animacje": { "title": "Animations", "description": "Professional animations for every occasion - clown, bubbles, contests and attractions for children and adults." },
+    "dekoracje": { "title": "Decorations", "description": "Balloon decorations for birthdays, weddings, communions and corporate events - designed and installed on site." },
+    "fotobudka": { "title": "Photo booth", "description": "360° photo booth - a modern attraction that draws guests in and leaves a lasting memory." },
+    "sklep": { "title": "Online shop", "description": "Decorations and party supplies - order conveniently via our Allegro profile." }
   },
   "whyUs": {
     "label": "Why Event Time",
     "title": "Experience you can rely on",
-    "subtitle": "We are not a newcomer — for years we have been building a reputation as a solid partner in event organisation.",
+    "subtitle": "We are not a newcomer - for years we have been building a reputation as a solid partner in event organisation.",
     "items": [
-      { "title": "Over 20 years of experience", "description": "For two decades we have been creating events across Poland — from our base in Zielona Góra. Behind us is a team of trusted animators and decorators." },
-      { "title": "Proven company", "description": "Hundreds of families and businesses trust us. We know what works at a party — and we nail every detail before guests arrive." },
+      { "title": "Over 20 years of experience", "description": "For two decades we have been creating events across Poland - from our base in Zielona Góra. Behind us is a team of trusted animators and decorators." },
+      { "title": "Proven company", "description": "Hundreds of families and businesses trust us. We know what works at a party - and we nail every detail before guests arrive." },
       { "title": "Full service", "description": "Animations, balloon decorations and 360° photo booth from one place. No subcontractors, no surprises." },
       { "title": "Personal approach", "description": "Every event is different. We listen, advise and tailor the programme to guests' age, budget and the nature of the celebration." }
     ]
   },
   "cta": {
     "title": "Got an idea for a party?",
-    "subtitle": "Write to us — we will prepare a quote tailored to your event.",
+    "subtitle": "Write to us - we will prepare a quote tailored to your event.",
     "quote": "Request a quote",
     "call": "Call: {phone}"
   },
   "animacje": {
     "heroTitle": "Animations for every occasion",
-    "heroSubtitle": "Professional animations for children and adults — from birthdays to corporate events, across Poland.",
-    "intro": "Event Time means over 20 years of animation experience and a team that knows how to run a party. We host events in Polish, German, English and Ukrainian. From a colourful clown and giant bubbles to high-energy contests — we tailor the programme to guests' age and the nature of the celebration.",
+    "heroSubtitle": "Professional animations for children and adults - from birthdays to corporate events, across Poland.",
+    "intro": "Event Time means over 20 years of animation experience and a team that knows how to run a party. We host events in Polish, German, English and Ukrainian. From a colourful clown and giant bubbles to high-energy contests - we tailor the programme to guests' age and the nature of the celebration.",
     "partyLabel": "Events",
     "partyTitle": "Types of celebrations",
-    "partySubtitle": "We run animations for different occasions — we match the programme to your event.",
+    "partySubtitle": "We run animations for different occasions - we match the programme to your event.",
     "attractionsLabel": "Attractions",
     "attractionsTitle": "What can we offer?",
-    "attractionsSubtitle": "Pick attractions or tell us what you need — we will compose the perfect programme.",
+    "attractionsSubtitle": "Pick attractions or tell us what you need - we will compose the perfect programme.",
     "galleryTitle": "Gallery and references",
     "ctaTitle": "Plan animations for your event",
-    "ctaSubtitle": "Tell us about your celebration — we will prepare a programme and quote.",
+    "ctaSubtitle": "Tell us about your celebration - we will prepare a programme and quote.",
     "partyTypes": {
-      "urodziny": { "title": "Birthdays", "description": "Programme tailored to the birthday child's age — from toddlers to teens." },
+      "urodziny": { "title": "Birthdays", "description": "Programme tailored to the birthday child's age - from toddlers to teens." },
       "komunie": { "title": "Communions", "description": "Light, family-friendly animations engaging children and adults." },
       "wesela": { "title": "Weddings", "description": "Games and attractions for the youngest wedding guests." },
       "firmowe": { "title": "Corporate events", "description": "Team building, contests and animations for picnics and B2B events." },
       "pikniki": { "title": "Picnics and fairs", "description": "Large outdoor events with attractions for whole families." },
-      "inne": { "title": "Other occasions", "description": "Christenings, baby showers, anniversaries — every occasion works." }
+      "inne": { "title": "Other occasions", "description": "Christenings, baby showers, anniversaries - every occasion works." }
     },
     "attractions": {
       "klaun": { "title": "Clown", "description": "Colourful clown with games, contests and lots of laughter." },
       "banki": { "title": "Soap bubbles", "description": "Giant bubbles that delight children and adults." },
       "malowanie": { "title": "Face painting", "description": "Colourful designs and characters matching your party theme." },
       "konkursy": { "title": "Contests and games", "description": "Team games, prize contests and hosted entertainment." },
-      "warkoczyki": { "title": "Braids", "description": "Colourful braids and hairstyles for children — quick and popular." },
-      "tatuaze": { "title": "Glitter tattoos", "description": "Safe powder and temporary tattoos for children — glitter, patterns, colours." },
-      "modelinowe": { "title": "Balloon modelling", "description": "Animals, swords and figures from modelling balloons — every child gets a keepsake." },
-      "wataPopcorn": { "title": "Cotton candy and popcorn machines", "description": "Fresh candy floss and fragrant popcorn straight from the machines — a sweet treat for fairs and outdoor events." },
+      "warkoczyki": { "title": "Braids", "description": "Colourful braids and hairstyles for children - quick and popular." },
+      "tatuaze": { "title": "Glitter tattoos", "description": "Safe powder and temporary tattoos for children - glitter, patterns, colours." },
+      "modelinowe": { "title": "Balloon modelling", "description": "Animals, swords and figures from modelling balloons - every child gets a keepsake." },
+      "wataPopcorn": { "title": "Cotton candy and popcorn machines", "description": "Fresh candy floss and fragrant popcorn straight from the machines - a sweet treat for fairs and outdoor events." },
       "dmuchance": { "title": "Bouncy castles", "description": "A safe attraction that keeps the energy going all afternoon." }
     },
     "testimonials": [
-      { "text": "Great organisation and brilliant with kids. Highly recommended!", "author": "Client review — more soon" },
-      { "text": "Professional approach and plenty of smiles at the party.", "author": "Client review — more soon" }
+      { "text": "Great organisation and brilliant with kids. Highly recommended!", "author": "Client review - more soon" },
+      { "text": "Professional approach and plenty of smiles at the party.", "author": "Client review - more soon" }
     ]
   },
   "dekoracje": {
     "heroTitle": "Balloon decorations",
-    "heroSubtitle": "From birthday arches to elegant wedding compositions — we will bring your vision to life.",
-    "intro": "We create balloon decorations for every occasion — from birthday arches to elegant wedding arrangements. We also offer sequin walls, floral and greenery walls, LED numbers and signs, and complete setups for corporate events.",
+    "heroSubtitle": "From birthday arches to elegant wedding compositions - we will bring your vision to life.",
+    "intro": "We create balloon decorations for every occasion - from birthday arches to elegant wedding arrangements. We also offer sequin walls, floral and greenery walls, LED numbers and signs, and complete setups for corporate events.",
     "categoriesLabel": "Categories",
     "categoriesTitle": "What we can prepare for you",
     "categoriesSubtitle": "Balloon arches, decorative walls, LED signage and arrangements tailored to your event.",
     "galleryTitle": "Our work",
     "ctaTitle": "Need decorations for your event?",
-    "ctaSubtitle": "Describe your vision — we will prepare a design and quote.",
+    "ctaSubtitle": "Describe your vision - we will prepare a design and quote.",
     "categories": {
-      "luki": { "title": "Balloon arches and garlands", "description": "Organic arches, entrance gates and garlands — from classic to modern.", "detail": "We design and install organic arches, entrance gates and balloon garlands — scaled for halls, gardens or venue entrances." },
-      "urodziny": { "title": "Birthdays and children's parties", "description": "Themed walls, balloon numbers and décor in the birthday child's colours.", "detail": "Birthday décor for children and adults — themed walls, balloon numbers and arrangements at the entrance and on tables." },
-      "sluby": { "title": "Weddings", "description": "Elegant décor for the venue, entrances and tables — balloons with flowers and details.", "detail": "Elegant wedding décor — entrance arches, arrangements behind the couple, tables and balloon details combined with flowers." },
-      "cekinowe": { "title": "Sequin walls", "description": "Shimmering photo walls in various colours — perfect for parties and events.", "detail": "Shimmering sequin walls in gold, silver, black and more — ideal photo backdrops, combinable with LED signage and branding." },
-      "liczbyLed": { "title": "LED numbers and signs", "description": "Illuminated digits, lettering and neon elements — for hire or as part of the décor.", "detail": "Illuminated numbers and LED lettering — for hire or as part of a larger setup. Popular for birthdays, anniversaries and corporate events." },
-      "kwiatowe": { "title": "Floral and greenery walls", "description": "Compositions of flowers and greenery — a natural backdrop for photos and venues.", "detail": "Floral and greenery walls as a natural photo backdrop — often combined with balloons for a cohesive venue look." },
-      "firmowe": { "title": "Corporate events", "description": "Branding, logo balloons, walls and décor for galas, conferences and team building.", "detail": "Décor for galas, conferences and team building — logo walls, brand colours, LED signage and complete event zones." },
-      "inne": { "title": "Communions and other occasions", "description": "Communions, baby showers, anniversaries — we match the style to your event.", "detail": "Communions, baby showers, anniversaries and more — we match the style and scale of décor to the venue and occasion." }
+      "luki": { "title": "Balloon arches and garlands", "description": "Organic arches, entrance gates and garlands - from classic to modern.", "detail": "We design and install organic arches, entrance gates and balloon garlands - scaled for halls, gardens or venue entrances." },
+      "urodziny": { "title": "Birthdays and children's parties", "description": "Themed walls, balloon numbers and décor in the birthday child's colours.", "detail": "Birthday décor for children and adults - themed walls, balloon numbers and arrangements at the entrance and on tables." },
+      "sluby": { "title": "Weddings", "description": "Elegant décor for the venue, entrances and tables - balloons with flowers and details.", "detail": "Elegant wedding décor - entrance arches, arrangements behind the couple, tables and balloon details combined with flowers." },
+      "cekinowe": { "title": "Sequin walls", "description": "Shimmering photo walls in various colours - perfect for parties and events.", "detail": "Shimmering sequin walls in gold, silver, black and more - ideal photo backdrops, combinable with LED signage and branding." },
+      "liczbyLed": { "title": "LED numbers and signs", "description": "Illuminated digits, lettering and neon elements - for hire or as part of the décor.", "detail": "Illuminated numbers and LED lettering - for hire or as part of a larger setup. Popular for birthdays, anniversaries and corporate events." },
+      "kwiatowe": { "title": "Floral and greenery walls", "description": "Compositions of flowers and greenery - a natural backdrop for photos and venues.", "detail": "Floral and greenery walls as a natural photo backdrop - often combined with balloons for a cohesive venue look." },
+      "firmowe": { "title": "Corporate events", "description": "Branding, logo balloons, walls and décor for galas, conferences and team building.", "detail": "Décor for galas, conferences and team building - logo walls, brand colours, LED signage and complete event zones." },
+      "inne": { "title": "Communions and other occasions", "description": "Communions, baby showers, anniversaries - we match the style to your event.", "detail": "Communions, baby showers, anniversaries and more - we match the style and scale of décor to the venue and occasion." }
     }
   },
   "fotobudka": {
     "heroTitle": "360° photo booth",
     "heroSubtitle": "A modern attraction that gets reactions and creates unforgettable memories.",
-    "intro": "The 360° photo booth is a separate, modern Event Time service — alongside animations and decorations, with the same experience and professionalism you know from us. Guests step onto a rotating platform while the camera captures striking shots from every angle. An attraction that draws crowds and creates great social media content.",
+    "intro": "The 360° photo booth is a separate, modern Event Time service - alongside animations and decorations, with the same experience and professionalism you know from us. Guests step onto a rotating platform while the camera captures striking shots from every angle. An attraction that draws crowds and creates great social media content.",
     "stepsTitle": "How it works",
     "steps": [
       { "title": "We set up", "description": "We bring the 360° booth and prepare the station at your event." },
-      { "title": "We record", "description": "Guests step on the platform — the camera captures dynamic shots from every side." },
-      { "title": "We share", "description": "Finished videos go to participants — a perfect keepsake from the event." }
+      { "title": "We record", "description": "Guests step on the platform - the camera captures dynamic shots from every side." },
+      { "title": "We share", "description": "Finished videos go to participants - a perfect keepsake from the event." }
     ],
     "galleryTitle": "Gallery",
     "ctaTitle": "Want a photo booth at your event?",
-    "ctaSubtitle": "Write to us — we will confirm availability and pricing."
+    "ctaSubtitle": "Write to us - we will confirm availability and pricing."
   },
   "oNas": {
     "heroTitle": "About us",
@@ -199,23 +199,23 @@
     "historyLabel": "Our story",
     "historyTitle": "Event Time",
     "historyP1": "Event Time is a trusted event company from Zielona Góra, on the market for over 20 years. Over that time we have built a team that combines a passion for animations with a professional approach to every booking.",
-    "historyP2": "We work with experienced animators and decorators — people who connect with children, know how to energise a party and take care of every detail, from the first call to the last balloon in the room.",
-    "historyP3": "We specialise in animations, balloon decorations and 360° photo booths. We cover birthdays, communions, weddings, corporate events and outdoor celebrations across Poland — most often in the west of the country and eastern Germany.",
-    "historyP4": "We host events in Polish, German, English and Ukrainian. Get in touch — we are happy to tell you more and prepare a quote.",
+    "historyP2": "We work with experienced animators and decorators - people who connect with children, know how to energise a party and take care of every detail, from the first call to the last balloon in the room.",
+    "historyP3": "We specialise in animations, balloon decorations and 360° photo booths. We cover birthdays, communions, weddings, corporate events and outdoor celebrations across Poland - most often in the west of the country and eastern Germany.",
+    "historyP4": "We host events in Polish, German, English and Ukrainian. Get in touch - we are happy to tell you more and prepare a quote.",
     "teamImageAlt": "Event Time team"
   },
   "location": "Poland and Germany · base: Zielona Góra",
   "serviceArea": {
     "badge": "Where we work",
-    "title": "Poland and Germany — based in Zielona Góra",
-    "description": "We are based in Zielona Góra but accept bookings from across Poland and Germany. We most often deliver events in western Poland and eastern Germany — where we have the most experience and the shortest travel times.",
-    "travelNote": "We are happy to travel to more distant regions too. Travel costs are agreed when preparing your quote — clearly, with no hidden fees.",
+    "title": "Poland and Germany - based in Zielona Góra",
+    "description": "We are based in Zielona Góra but accept bookings from across Poland and Germany. We most often deliver events in western Poland and eastern Germany - where we have the most experience and the shortest travel times.",
+    "travelNote": "We are happy to travel to more distant regions too. Travel costs are agreed when preparing your quote - clearly, with no hidden fees.",
     "base": "Our base",
     "baseDesc": "Zielona Góra",
     "primaryZone": "Most frequent area",
     "primaryZoneDesc": "Western Poland and eastern Germany",
     "nationwide": "Bookings from across Poland and Germany",
-    "nationwideDesc": "accepted — longer travel quoted individually",
+    "nationwideDesc": "accepted - longer travel quoted individually",
     "mapLabel": "Event Time service area: base in Zielona Góra, main zone in western Poland and eastern Germany, bookings accepted from across Poland and Germany"
   }
 }

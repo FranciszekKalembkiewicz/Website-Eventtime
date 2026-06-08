@@ -3,7 +3,7 @@ export const defaultLocale = 'pl' as const;
 export const locales = ['pl', 'de', 'en', 'uk'] as const;
 export type Locale = (typeof locales)[number];
 
-/** Pełne nazwy języków — używane w aria-label i tooltipach (nie skrótów typu UK). */
+/** Pełne nazwy języków - używane w aria-label i tooltipach (nie skrótów typu UK). */
 export const localeNames: Record<Locale, string> = {
   pl: 'Polski',
   de: 'Deutsch',

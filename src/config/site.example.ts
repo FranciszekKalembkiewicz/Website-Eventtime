@@ -1,12 +1,12 @@
 /**
- * Szablon konfiguracji — skopiuj do site.ts i uzupełnij danymi firmy.
+ * Szablon konfiguracji - skopiuj do site.ts i uzupełnij danymi firmy.
  * Plik site.ts jest w .gitignore i nie trafia do repozytorium.
  */
 export const site = {
   name: 'Event Time',
   tagline: 'Czas na Twoją imprezę!',
   description:
-    'Event Time — sprawdzona firma eventowa z Zielonej Góry. Ponad 20 lat animacji, dekoracji balonowych i fotobudek 360°.',
+    'Event Time - sprawdzona firma eventowa z Zielonej Góry. Ponad 20 lat animacji, dekoracji balonowych i fotobudek 360°.',
   phone: '+48 000 000 000',
   email: 'kontakt@example.com',
   location: 'Polska i Niemcy · baza: Zielona Góra',

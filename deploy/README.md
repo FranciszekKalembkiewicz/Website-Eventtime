@@ -2,7 +2,7 @@
 
 ## Dla administratora serwera
 
-Strona Event Time to **statyczna witryna HTML** — folder z plikami, bez bazy danych i bez Node.js na serwerze.
+Strona Event Time to **statyczna witryna HTML** - folder z plikami, bez bazy danych i bez Node.js na serwerze.
 
 ### Wymagania
 
@@ -78,7 +78,7 @@ server {
 
 > Cześć,
 >
-> Przygotowujemy nową stronę firmową Event Time (zastępuje starą stronę z WebWave). Będzie to **statyczna strona HTML** — folder z plikami, bez bazy danych i bez Node.js.
+> Przygotowujemy nową stronę firmową Event Time (zastępuje starą stronę z WebWave). Będzie to **statyczna strona HTML** - folder z plikami, bez bazy danych i bez Node.js.
 >
 > Proszę o informacje:
 >
@@ -87,7 +87,7 @@ server {
 > 3. Czy możecie wskazać katalog, do którego wrzucić pliki strony (np. `public_html` lub `/var/www/eventtime`)?
 > 4. Czy macie dostęp do ustawień DNS domeny **eventtime.zgora.pl**?
 > 5. Czy SSL (HTTPS) jest już skonfigurowany, czy trzeba go włączyć?
-> 6. Czy na hostingu działa **PHP**? (opcjonalnie — formularz korzysta z zewnętrznej usługi Formspree, więc PHP nie jest wymagane)
+> 6. Czy na hostingu działa **PHP**? (opcjonalnie - formularz korzysta z zewnętrznej usługi Formspree, więc PHP nie jest wymagane)
 >
 > Gdy strona będzie gotowa, prześlę Wam **archiwum ZIP** z plikami do wgrania. Trzeba będzie:
 >
@@ -108,7 +108,7 @@ npm run build
 cd dist && zip -r ../eventtime-strona.zip . && cd ..
 ```
 
-Gotowe archiwum: `eventtime-strona.zip` — wyślij je administratorowi serwera.
+Gotowe archiwum: `eventtime-strona.zip` - wyślij je administratorowi serwera.
 
 ---
 
@@ -116,10 +116,10 @@ Gotowe archiwum: `eventtime-strona.zip` — wyślij je administratorowi serwera.
 
 Plik `src/config/site.ts` zawiera dane do podmiany:
 
-- `allegroUrl` — link do profilu Allegro
-- `formspreeEndpoint` — endpoint formularza (zarejestruj się na [formspree.io](https://formspree.io) i podmień ID)
-- `social` — linki do profili social media (Facebook, Instagram, TikTok)
-- `email` — główny adres kontaktowy (patrz `src/config/site.ts`)
-- `PUBLIC_FORMSPREE_ENDPOINT` w `.env` — endpoint formularza (opcjonalnie zamiast wpisu w `site.ts`)
+- `allegroUrl` - link do profilu Allegro
+- `formspreeEndpoint` - endpoint formularza (zarejestruj się na [formspree.io](https://formspree.io) i podmień ID)
+- `social` - linki do profili social media (Facebook, Instagram, TikTok)
+- `email` - główny adres kontaktowy (patrz `src/config/site.ts`)
+- `PUBLIC_FORMSPREE_ENDPOINT` w `.env` - endpoint formularza (opcjonalnie zamiast wpisu w `site.ts`)
 
 Po zmianie uruchom ponownie `npm run build` i wyślij nowe ZIP.

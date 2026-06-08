@@ -26,7 +26,7 @@ fmt(tr.hero.badgeYears, { years: site.yearsOnMarket });
 
 ## Struktura plików stron
 
-Polski (domyślny) — `src/pages/`. Pozostałe języki — `src/pages/de/`, `en/`, `uk/`.
+Polski (domyślny) - `src/pages/`. Pozostałe języki - `src/pages/de/`, `en/`, `uk/`.
 Logika stron jest w `src/views/`; pliki w `pages/` to cienkie wrappery wymagane przez Astro.
 
 Przy dodawaniu nowej strony:
@@ -42,5 +42,5 @@ Przy dodawaniu nowej strony:
 
 ## Zdjęcia i dane strukturalne
 
-- Obrazki atrakcji/imprez: [`data.ts`](data.ts) — ID wspólne, teksty z tłumaczeń
-- Galeria: [`../data/gallery.json`](../data/gallery.json) — na razie wspólna (alt do rozbudowy)
+- Obrazki atrakcji/imprez: [`data.ts`](data.ts) - ID wspólne, teksty z tłumaczeń
+- Galeria: [`../data/gallery.json`](../data/gallery.json) - na razie wspólna (alt do rozbudowy)

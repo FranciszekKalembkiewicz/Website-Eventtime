@@ -1,5 +1,5 @@
 {
-  "intro": "Tworzymy dekoracje balonowe na każdą okazję — od urodzinowych arkad po eleganckie kompozycje ślubne. Każda realizacja jest projektowana indywidualnie, z dbałością o detale i kolorystykę.",
+  "intro": "Tworzymy dekoracje balonowe na każdą okazję - od urodzinowych arkad po eleganckie kompozycje ślubne. Każda realizacja jest projektowana indywidualnie, z dbałością o detale i kolorystykę.",
   "categories": [
     {
       "id": "urodziny",
@@ -10,7 +10,7 @@
     {
       "id": "sluby",
       "title": "Śluby",
-      "description": "Eleganckie dekoracje sali i stołów — balony, kwiaty, detale.",
+      "description": "Eleganckie dekoracje sali i stołów - balony, kwiaty, detale.",
       "image": "/images/placeholders/deco-sluby.svg"
     },
     {
@@ -22,7 +22,7 @@
     {
       "id": "inne",
       "title": "Inne okazje",
-      "description": "Komunie, baby shower, jubileusze — dopasujemy styl do wydarzenia.",
+      "description": "Komunie, baby shower, jubileusze - dopasujemy styl do wydarzenia.",
       "image": "/images/placeholders/deco-inne.svg"
     }
   ]

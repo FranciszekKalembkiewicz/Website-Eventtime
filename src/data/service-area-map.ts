@@ -1,4 +1,4 @@
-/** Uproszczone granice z world.geo.json (johan) — rzutowanie na SVG bez zewnętrznych API. */
+/** Uproszczone granice z world.geo.json (johan) - rzutowanie na SVG bez zewnętrznych API. */
 
 export const MAP_VIEWBOX = '0 0 520 420';
 
